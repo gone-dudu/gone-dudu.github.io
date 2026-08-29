@@ -1,0 +1,38 @@
+{
+  "_읽을것": "베베곳간 앱이 시작할 때 하루 한 번 받아 가는 금액표다. 제도가 바뀌면 이 파일만 고치면 앱 업데이트 없이 반영된다. 값 하나라도 이상하면 앱이 통째로 무시하고 내장값을 쓰므로, 고친 뒤 형식을 꼭 확인해라. version 을 올리고 updatedAt 을 오늘로 바꾸는 것을 잊지 마라 — updatedAt 이 1년을 넘기면 앱이 '오래된 기준'이라고 스스로 경고한다.",
+  "version": 1,
+  "updatedAt": "2026-08-30",
+  "basisNote": "2026년 제도 기준 · 2027-07 개편분은 국회 심의 전 정부안",
+
+  "reformYear": 2027,
+  "reformMonth": 7,
+
+  "firstMeetFirst": 200,
+  "firstMeetMore": 300,
+  "parentPayAge0": 100,
+  "parentPayAge1": 50,
+  "childAllowanceMonths": 108,
+  "pregnancyVoucher": 100,
+
+  "welcomeFirst": 1000,
+  "welcomeSecond": 1200,
+  "welcomeThirdUp": 1500,
+  "welcomeInstallments": 4,
+  "welcomeStartMonth": 0,
+  "reformAllowanceMonths": 156,
+  "homecareMonthly": 30,
+  "homecareMonths": 24,
+  "marriageGrant": 100,
+
+  "childAllowanceByRegion":  { "METRO": 10, "NON_METRO": 10, "PREFERRED": 11, "SPECIAL": 12 },
+  "reformAllowanceByRegion": { "METRO": 20, "NON_METRO": 20, "PREFERRED": 30, "SPECIAL": 30 },
+  "welcomeBonusByRegion":    { "METRO": 0,  "NON_METRO": 0,  "PREFERRED": 500, "SPECIAL": 500 },
+
+  "leaveTiers": [
+    { "from": 1, "to": 3,  "rate": 1.0, "cap": 250 },
+    { "from": 4, "to": 6,  "rate": 1.0, "cap": 200 },
+    { "from": 7, "to": 18, "rate": 0.8, "cap": 160 }
+  ],
+  "leaveExtendThreshold": 3,
+  "leaveMaxMonths": 18
+}
