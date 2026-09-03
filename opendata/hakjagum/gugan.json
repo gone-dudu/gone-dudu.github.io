@@ -1,0 +1,105 @@
+{
+ "_읽을것": [
+  "학자금(등대) 앱이 하루 한 번 받아 가는 **학자금 지원구간 경곗값**이다. 판정의 기준값이라 이게 틀리면 앱 답이 통째로 틀린다.",
+  "🔴 items 를 부분만 고치지 마라. 앱은 이상하면 통째로 버리고 res/raw 시드로 물러선다.",
+  "🔴 meta.builtYmd 를 **반드시 올려라**. 앱은 시드와 builtYmd 를 비교해 더 새 쪽을 쓴다 — 안 올리면 이 파일이 무시된다.",
+  "minGrade='approx' 는 원본 오타를 유도한 값이라는 뜻이고, 화면이 그 사실을 그대로 띄운다. 조용히 exact 로 바꾸지 마라."
+ ],
+ "meta": {
+  "dataset": "학자금 지원구간 경곗값",
+  "source": "한국장학재단 학자금 지원구간 경곗값",
+  "sourceUrl": "https://www.data.go.kr/data/15070453/fileData.do",
+  "baseYmd": "20260416",
+  "note": "2026년 기준 · 소득인정금액 월 환산액",
+  "builtYmd": "20260901",
+  "count": 10,
+  "parser": {
+   "version": 1,
+   "exact": 8,
+   "approx": 2,
+   "unparsed": 0
+  }
+ },
+ "items": [
+  {
+   "tier": 1,
+   "year": "2026",
+   "min": 0,
+   "max": 1948421,
+   "minGrade": "exact",
+   "minRaw": null
+  },
+  {
+   "tier": 2,
+   "year": "2026",
+   "min": 1948422,
+   "max": 3247369,
+   "minGrade": "exact",
+   "minRaw": null
+  },
+  {
+   "tier": 3,
+   "year": "2026",
+   "min": 3247370,
+   "max": 4546317,
+   "minGrade": "exact",
+   "minRaw": null
+  },
+  {
+   "tier": 4,
+   "year": "2026",
+   "min": 4546318,
+   "max": 5845264,
+   "minGrade": "exact",
+   "minRaw": null
+  },
+  {
+   "tier": 5,
+   "year": "2026",
+   "min": 5845265,
+   "max": 6494738,
+   "minGrade": "exact",
+   "minRaw": null
+  },
+  {
+   "tier": 6,
+   "year": "2026",
+   "min": 6494739,
+   "max": 8443159,
+   "minGrade": "exact",
+   "minRaw": null
+  },
+  {
+   "tier": 7,
+   "year": "2026",
+   "min": 8443160,
+   "max": 9742107,
+   "minGrade": "exact",
+   "minRaw": null
+  },
+  {
+   "tier": 8,
+   "year": "2026",
+   "min": 9742108,
+   "max": 12989476,
+   "minGrade": "exact",
+   "minRaw": null
+  },
+  {
+   "tier": 9,
+   "year": "2026",
+   "min": 12989477,
+   "max": 19484214,
+   "minGrade": "approx",
+   "minRaw": 1298477
+  },
+  {
+   "tier": 10,
+   "year": "2026",
+   "min": 19484215,
+   "max": null,
+   "minGrade": "approx",
+   "minRaw": 1948215
+  }
+ ]
+}

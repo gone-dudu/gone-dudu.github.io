@@ -1,0 +1,3884 @@
+{
+ "_읽을것": [
+  "대학별 평균등록금 × 국가장학금 I유형 대상대학. 해마다 바뀐다(보통 5월경 공표).",
+  "🔴 meta.builtYmd 를 올려야 앱이 이 파일을 쓴다.",
+  "fee=null 은 조인이 안 되는 학교(캠퍼스 분리·사이버대·폴리텍)다. 화면은 '등록금 정보 없음'으로 물러선다 — 평균값으로 메우지 마라."
+ ],
+ "meta": {
+  "dataset": "국가장학금 I유형 대상대학 × 대학별 평균등록금",
+  "source": "한국장학재단",
+  "sourceUrl": "https://www.data.go.kr/data/15114804/fileData.do",
+  "baseYmd": "20260519",
+  "note": "등록금은 대학별 평균등록금(2026-05-19), I유형 여부는 대상대학 목록(2026-01)",
+  "builtYmd": "20260901",
+  "count": 386,
+  "parser": {
+   "version": 1,
+   "exact": 344,
+   "approx": 0,
+   "unparsed": 42
+  }
+ },
+ "items": [
+  {
+   "name": "가야대학교(본교) 학부",
+   "region": "경상남도",
+   "kind": "일반대",
+   "found": "사립",
+   "year": "2026",
+   "fee": 7446294,
+   "feeGrade": "exact",
+   "campusSplit": null
+  },
+  {
+   "name": "가천대학교(글로벌캠퍼스) 학부",
+   "region": "경기도",
+   "kind": "일반대",
+   "found": "사립",
+   "year": "2026",
+   "fee": 9094426,
+   "feeGrade": "exact",
+   "campusSplit": null
+  },
+  {
+   "name": "가천대학교(메디컬캠퍼스) 학부",
+   "region": "인천광역시",
+   "kind": "일반대",
+   "found": "사립",
+   "year": "2026",
+   "fee": 9094426,
+   "feeGrade": "exact",
+   "campusSplit": null
+  },
+  {
+   "name": "가톨릭꽃동네대학교(본교) 학부",
+   "region": "충청북도",
+   "kind": "일반대",
+   "found": "사립",
+   "year": "2026",
+   "fee": 7468778,
+   "feeGrade": "exact",
+   "campusSplit": null
+  },
+  {
+   "name": "가톨릭대학교(성신교정) 학부",
+   "region": "서울특별시",
+   "kind": "일반대",
+   "found": "사립",
+   "year": "2026",
+   "fee": 7963852,
+   "feeGrade": "exact",
+   "campusSplit": null
+  },
+  {
+   "name": "가톨릭대학교(성심교정) 학부",
+   "region": "경기도",
+   "kind": "일반대",
+   "found": "사립",
+   "year": "2026",
+   "fee": 7963852,
+   "feeGrade": "exact",
+   "campusSplit": null
+  },
+  {
+   "name": "가톨릭대학교(성의교정) 학부",
+   "region": "서울특별시",
+   "kind": "일반대",
+   "found": "사립",
+   "year": "2026",
+   "fee": 7963852,
+   "feeGrade": "exact",
+   "campusSplit": null
+  },
+  {
+   "name": "가톨릭상지대학교(본교)",
+   "region": "경상북도",
+   "kind": "전문대",
+   "found": "사립",
+   "year": "2026",
+   "fee": 6122698,
+   "feeGrade": "exact",
+   "campusSplit": null
+  },
+  {
+   "name": "감리교신학대학교(본교) 학부",
+   "region": "서울특별시",
+   "kind": "일반대",
+   "found": "사립",
+   "year": "2026",
+   "fee": 6941350,
+   "feeGrade": "exact",
+   "campusSplit": null
+  },
+  {
+   "name": "강남대학교(본교) 학부",
+   "region": "경기도",
+   "kind": "일반대",
+   "found": "사립",
+   "year": "2026",
+   "fee": 8206173,
+   "feeGrade": "exact",
+   "campusSplit": null
+  },
+  {
+   "name": "강동대학교(본교)",
+   "region": "충청북도",
+   "kind": "전문대",
+   "found": "사립",
+   "year": "2026",
+   "fee": 6087119,
+   "feeGrade": "exact",
+   "campusSplit": null
+  },
+  {
+   "name": "강릉영동대학교(본교)",
+   "region": "강원도",
+   "kind": "전문대",
+   "found": "사립",
+   "year": "2026",
+   "fee": 6161215,
+   "feeGrade": "exact",
+   "campusSplit": null
+  },
+  {
+   "name": "강서대학교(본교) 학부",
+   "region": "서울특별시",
+   "kind": "일반대",
+   "found": "사립",
+   "year": "2026",
+   "fee": 7933024,
+   "feeGrade": "exact",
+   "campusSplit": null
+  },
+  {
+   "name": "강원대학교(삼척캠퍼스) 학부",
+   "region": "강원도",
+   "kind": "일반대",
+   "found": "국립",
+   "year": "2026",
+   "fee": 4231665,
+   "feeGrade": "exact",
+   "campusSplit": null
+  },
+  {
+   "name": "강원대학교(춘천캠퍼스) 학부",
+   "region": "강원도",
+   "kind": "일반대",
+   "found": "국립",
+   "year": "2026",
+   "fee": 4231665,
+   "feeGrade": "exact",
+   "campusSplit": null
+  },
+  {
+   "name": "강원도립대학교(본교)",
+   "region": "강원도",
+   "kind": "전문대",
+   "found": "공립",
+   "year": "2026",
+   "fee": 2347982,
+   "feeGrade": "exact",
+   "campusSplit": null
+  },
+  {
+   "name": "거제대학교(본교)",
+   "region": "경상남도",
+   "kind": "전문대",
+   "found": "사립",
+   "year": "2026",
+   "fee": 6720853,
+   "feeGrade": "exact",
+   "campusSplit": null
+  },
+  {
+   "name": "건국대학교(글로컬캠퍼스) 학부",
+   "region": "충청북도",
+   "kind": "일반대",
+   "found": "사립",
+   "year": "2026",
+   "fee": 8935134,
+   "feeGrade": "exact",
+   "campusSplit": null
+  },
+  {
+   "name": "건국대학교(글로컬캠퍼스) 학부",
+   "region": "충청북도",
+   "kind": "일반대",
+   "found": "사립",
+   "year": "2026",
+   "fee": 8935134,
+   "feeGrade": "exact",
+   "campusSplit": null
+  },
+  {
+   "name": "건양대학교(본교) 학부",
+   "region": "충청남도",
+   "kind": "일반대",
+   "found": "사립",
+   "year": "2026",
+   "fee": 7429363,
+   "feeGrade": "exact",
+   "campusSplit": null
+  },
+  {
+   "name": "건양사이버대학교(본교) 학부",
+   "region": "대전광역시",
+   "kind": "일반대",
+   "found": "사립",
+   "year": "2026",
+   "fee": 2537764,
+   "feeGrade": "exact",
+   "campusSplit": null
+  },
+  {
+   "name": "경기과학기술대학교(본교)",
+   "region": "경기도",
+   "kind": "전문대",
+   "found": "사립",
+   "year": "2026",
+   "fee": 6933952,
+   "feeGrade": "exact",
+   "campusSplit": null
+  },
+  {
+   "name": "경기대학교 학부",
+   "region": "경기도",
+   "kind": "일반대",
+   "found": "사립",
+   "year": "2026",
+   "fee": 8003496,
+   "feeGrade": "exact",
+   "campusSplit": null
+  },
+  {
+   "name": "경남대학교(본교) 학부",
+   "region": "경상남도",
+   "kind": "일반대",
+   "found": "사립",
+   "year": "2026",
+   "fee": 7060678,
+   "feeGrade": "exact",
+   "campusSplit": null
+  },
+  {
+   "name": "경남정보대학교(본교)",
+   "region": "부산광역시",
+   "kind": "전문대",
+   "found": "사립",
+   "year": "2026",
+   "fee": 6732395,
+   "feeGrade": "exact",
+   "campusSplit": null
+  },
+  {
+   "name": "경동대학교(본교) 학부",
+   "region": "강원도",
+   "kind": "일반대",
+   "found": "사립",
+   "year": "2026",
+   "fee": 8651315,
+   "feeGrade": "exact",
+   "campusSplit": null
+  },
+  {
+   "name": "경민대학교(본교)",
+   "region": "경기도",
+   "kind": "전문대",
+   "found": "사립",
+   "year": "2026",
+   "fee": 7081098,
+   "feeGrade": "exact",
+   "campusSplit": null
+  },
+  {
+   "name": "경복대학교(본교)",
+   "region": "경기도",
+   "kind": "전문대",
+   "found": "사립",
+   "year": "2026",
+   "fee": 7171732,
+   "feeGrade": "exact",
+   "campusSplit": null
+  },
+  {
+   "name": "경북과학대학교(본교)",
+   "region": "경상북도",
+   "kind": "전문대",
+   "found": "사립",
+   "year": "2026",
+   "fee": 5745593,
+   "feeGrade": "exact",
+   "campusSplit": null
+  },
+  {
+   "name": "경북대학교(본교) 학부",
+   "region": "대구광역시",
+   "kind": "일반대",
+   "found": "국립",
+   "year": "2026",
+   "fee": 4524820,
+   "feeGrade": "exact",
+   "campusSplit": null
+  },
+  {
+   "name": "경북보건대학교(본교)",
+   "region": "경상북도",
+   "kind": "전문대",
+   "found": "사립",
+   "year": "2026",
+   "fee": 5777034,
+   "feeGrade": "exact",
+   "campusSplit": null
+  },
+  {
+   "name": "경북전문대학교(본교)",
+   "region": "경상북도",
+   "kind": "전문대",
+   "found": "사립",
+   "year": "2026",
+   "fee": 6282521,
+   "feeGrade": "exact",
+   "campusSplit": null
+  },
+  {
+   "name": "경상국립대학교(본교) 학부",
+   "region": "경상남도",
+   "kind": "일반대",
+   "found": "국립",
+   "year": "2026",
+   "fee": 4095673,
+   "feeGrade": "exact",
+   "campusSplit": null
+  },
+  {
+   "name": "경성대학교(본교) 학부",
+   "region": "부산광역시",
+   "kind": "일반대",
+   "found": "사립",
+   "year": "2026",
+   "fee": 7561386,
+   "feeGrade": "exact",
+   "campusSplit": null
+  },
+  {
+   "name": "경운대학교(본교) 학부",
+   "region": "경상북도",
+   "kind": "일반대",
+   "found": "사립",
+   "year": "2026",
+   "fee": 8046670,
+   "feeGrade": "exact",
+   "campusSplit": null
+  },
+  {
+   "name": "경인교육대학교(본교) 학부",
+   "region": "인천광역시",
+   "kind": "일반대",
+   "found": "국립",
+   "year": "2026",
+   "fee": 3493349,
+   "feeGrade": "exact",
+   "campusSplit": null
+  },
+  {
+   "name": "경인여자대학교(본교)",
+   "region": "인천광역시",
+   "kind": "전문대",
+   "found": "사립",
+   "year": "2026",
+   "fee": 6971179,
+   "feeGrade": "exact",
+   "campusSplit": null
+  },
+  {
+   "name": "경일대학교(본교) 학부",
+   "region": "경상북도",
+   "kind": "일반대",
+   "found": "사립",
+   "year": "2026",
+   "fee": 7997557,
+   "feeGrade": "exact",
+   "campusSplit": null
+  },
+  {
+   "name": "경희대학교(국제캠퍼스) 학부",
+   "region": "경기도",
+   "kind": "일반대",
+   "found": "사립",
+   "year": "2026",
+   "fee": 8699742,
+   "feeGrade": "exact",
+   "campusSplit": null
+  },
+  {
+   "name": "경희대학교(서울캠퍼스) 학부",
+   "region": "서울특별시",
+   "kind": "일반대",
+   "found": "사립",
+   "year": "2026",
+   "fee": 8699742,
+   "feeGrade": "exact",
+   "campusSplit": null
+  },
+  {
+   "name": "경희사이버대학교(본교) 학부",
+   "region": "서울특별시",
+   "kind": "일반대",
+   "found": "사립",
+   "year": "2026",
+   "fee": 2931652,
+   "feeGrade": "exact",
+   "campusSplit": null
+  },
+  {
+   "name": "계명대학교(본교) 학부",
+   "region": "대구광역시",
+   "kind": "일반대",
+   "found": "사립",
+   "year": "2026",
+   "fee": 8236599,
+   "feeGrade": "exact",
+   "campusSplit": null
+  },
+  {
+   "name": "계명문화대학교",
+   "region": "대구광역시",
+   "kind": "전문대",
+   "found": "사립",
+   "year": "2026",
+   "fee": 6510126,
+   "feeGrade": "exact",
+   "campusSplit": null
+  },
+  {
+   "name": "계원예술대학교(본교)",
+   "region": "경기도",
+   "kind": "전문대",
+   "found": "사립",
+   "year": "2026",
+   "fee": 8285244,
+   "feeGrade": "exact",
+   "campusSplit": null
+  },
+  {
+   "name": "고려대학교 세종캠퍼스",
+   "region": "세종시",
+   "kind": "일반대",
+   "found": "사립",
+   "year": "2026",
+   "fee": null,
+   "feeGrade": "none",
+   "campusSplit": null
+  },
+  {
+   "name": "고려대학교(본교) 학부",
+   "region": "서울특별시",
+   "kind": "일반대",
+   "found": "사립",
+   "year": "2026",
+   "fee": 9125415,
+   "feeGrade": "exact",
+   "campusSplit": null
+  },
+  {
+   "name": "고려사이버대학교(본교) 학부",
+   "region": "서울특별시",
+   "kind": "일반대",
+   "found": "사립",
+   "year": "2026",
+   "fee": 2647878,
+   "feeGrade": "exact",
+   "campusSplit": null
+  },
+  {
+   "name": "고신대학교(본교) 학부",
+   "region": "부산광역시",
+   "kind": "일반대",
+   "found": "사립",
+   "year": "2026",
+   "fee": 7298932,
+   "feeGrade": "exact",
+   "campusSplit": null
+  },
+  {
+   "name": "공주교육대학교(본교) 학부",
+   "region": "충청남도",
+   "kind": "일반대",
+   "found": "국립",
+   "year": "2026",
+   "fee": 3600000,
+   "feeGrade": "exact",
+   "campusSplit": null
+  },
+  {
+   "name": "광신대학교(본교) 학부",
+   "region": "광주광역시",
+   "kind": "일반대",
+   "found": "사립",
+   "year": "2026",
+   "fee": 6367854,
+   "feeGrade": "exact",
+   "campusSplit": null
+  },
+  {
+   "name": "광운대학교(본교) 학부",
+   "region": "서울특별시",
+   "kind": "일반대",
+   "found": "사립",
+   "year": "2026",
+   "fee": 8595587,
+   "feeGrade": "exact",
+   "campusSplit": null
+  },
+  {
+   "name": "광주가톨릭대학교(본교) 학부",
+   "region": "전라남도",
+   "kind": "일반대",
+   "found": "사립",
+   "year": "2026",
+   "fee": 0,
+   "feeGrade": "exact",
+   "campusSplit": null
+  },
+  {
+   "name": "광주과학기술원(본교) 학부",
+   "region": "광주광역시",
+   "kind": "일반대",
+   "found": "국립",
+   "year": "2026",
+   "fee": 2060000,
+   "feeGrade": "exact",
+   "campusSplit": null
+  },
+  {
+   "name": "광주교육대학교(본교) 학부",
+   "region": "광주광역시",
+   "kind": "일반대",
+   "found": "국립",
+   "year": "2026",
+   "fee": 3795424,
+   "feeGrade": "exact",
+   "campusSplit": null
+  },
+  {
+   "name": "광주대학교(본교) 학부",
+   "region": "광주광역시",
+   "kind": "일반대",
+   "found": "사립",
+   "year": "2026",
+   "fee": 7133784,
+   "feeGrade": "exact",
+   "campusSplit": null
+  },
+  {
+   "name": "광주보건대학교(본교)",
+   "region": "광주광역시",
+   "kind": "전문대",
+   "found": "사립",
+   "year": "2026",
+   "fee": 5623590,
+   "feeGrade": "exact",
+   "campusSplit": null
+  },
+  {
+   "name": "광주여자대학교(본교) 학부",
+   "region": "광주광역시",
+   "kind": "일반대",
+   "found": "사립",
+   "year": "2026",
+   "fee": 6809351,
+   "feeGrade": "exact",
+   "campusSplit": null
+  },
+  {
+   "name": "구미대학교(본교)",
+   "region": "경상북도",
+   "kind": "전문대",
+   "found": "사립",
+   "year": "2026",
+   "fee": 6376912,
+   "feeGrade": "exact",
+   "campusSplit": null
+  },
+  {
+   "name": "국립강릉원주대학교(본교) 학부",
+   "region": "강원도",
+   "kind": "일반대",
+   "found": "국립",
+   "year": "2026",
+   "fee": null,
+   "feeGrade": "none",
+   "campusSplit": null
+  },
+  {
+   "name": "국립경국대학교(안동캠퍼스) 학부",
+   "region": "경상북도",
+   "kind": "일반대",
+   "found": "국립",
+   "year": "2026",
+   "fee": 3844994,
+   "feeGrade": "exact",
+   "campusSplit": null
+  },
+  {
+   "name": "국립경국대학교(예천캠퍼스) 학부",
+   "region": "경상북도",
+   "kind": "전문대",
+   "found": "공립",
+   "year": "2026",
+   "fee": 3844994,
+   "feeGrade": "exact",
+   "campusSplit": null
+  },
+  {
+   "name": "국립공주대학교(본교) 학부",
+   "region": "충청남도",
+   "kind": "일반대",
+   "found": "국립",
+   "year": "2026",
+   "fee": 3858704,
+   "feeGrade": "exact",
+   "campusSplit": null
+  },
+  {
+   "name": "국립군산대학교(본교) 학부",
+   "region": "전라북도",
+   "kind": "일반대",
+   "found": "국립",
+   "year": "2026",
+   "fee": 3891106,
+   "feeGrade": "exact",
+   "campusSplit": null
+  },
+  {
+   "name": "국립금오공과대학교(본교) 학부",
+   "region": "경상북도",
+   "kind": "일반대",
+   "found": "국립",
+   "year": "2026",
+   "fee": 3773623,
+   "feeGrade": "exact",
+   "campusSplit": null
+  },
+  {
+   "name": "국립목포대학교(담양캠퍼스) 학부",
+   "region": "전라남도",
+   "kind": "전문대",
+   "found": "국립",
+   "year": "2026",
+   "fee": 3852722,
+   "feeGrade": "exact",
+   "campusSplit": null
+  },
+  {
+   "name": "국립목포대학교(도림캠퍼스) 학부",
+   "region": "전라남도",
+   "kind": "일반대",
+   "found": "국립",
+   "year": "2026",
+   "fee": 3852722,
+   "feeGrade": "exact",
+   "campusSplit": null
+  },
+  {
+   "name": "국립목포해양대학교(본교) 학부",
+   "region": "전라남도",
+   "kind": "일반대",
+   "found": "국립",
+   "year": "2026",
+   "fee": 3412114,
+   "feeGrade": "exact",
+   "campusSplit": null
+  },
+  {
+   "name": "국립부경대학교(본교) 학부",
+   "region": "부산광역시",
+   "kind": "일반대",
+   "found": "국립",
+   "year": "2026",
+   "fee": 4049668,
+   "feeGrade": "exact",
+   "campusSplit": null
+  },
+  {
+   "name": "국립순천대학교(본교) 학부",
+   "region": "전라남도",
+   "kind": "일반대",
+   "found": "국립",
+   "year": "2026",
+   "fee": 3970127,
+   "feeGrade": "exact",
+   "campusSplit": null
+  },
+  {
+   "name": "국립창원대학교(거창캠퍼스)",
+   "region": "경상남도",
+   "kind": "전문대",
+   "found": "공립",
+   "year": "2026",
+   "fee": 3768750,
+   "feeGrade": "exact",
+   "campusSplit": null
+  },
+  {
+   "name": "국립창원대학교(남해캠퍼스)",
+   "region": "경상남도",
+   "kind": "전문대",
+   "found": "공립",
+   "year": "2026",
+   "fee": 3768750,
+   "feeGrade": "exact",
+   "campusSplit": null
+  },
+  {
+   "name": "국립창원대학교(본교) 학부",
+   "region": "경상남도",
+   "kind": "일반대",
+   "found": "국립",
+   "year": "2026",
+   "fee": 3768750,
+   "feeGrade": "exact",
+   "campusSplit": null
+  },
+  {
+   "name": "국립한국교통대학교(본교) 학부",
+   "region": "충청북도",
+   "kind": "일반대",
+   "found": "국립",
+   "year": "2026",
+   "fee": 4103672,
+   "feeGrade": "exact",
+   "campusSplit": null
+  },
+  {
+   "name": "국립한국해양대학교(본교) 학부",
+   "region": "부산광역시",
+   "kind": "일반대",
+   "found": "국립",
+   "year": "2026",
+   "fee": 3722953,
+   "feeGrade": "exact",
+   "campusSplit": null
+  },
+  {
+   "name": "국립한밭대학교(본교) 학부",
+   "region": "대전광역시",
+   "kind": "일반대",
+   "found": "국립",
+   "year": "2026",
+   "fee": 4479849,
+   "feeGrade": "exact",
+   "campusSplit": null
+  },
+  {
+   "name": "국민대학교(본교) 학부",
+   "region": "서울특별시",
+   "kind": "일반대",
+   "found": "사립",
+   "year": "2026",
+   "fee": 8616797,
+   "feeGrade": "exact",
+   "campusSplit": null
+  },
+  {
+   "name": "국제대학교(본교)",
+   "region": "경기도",
+   "kind": "전문대",
+   "found": "사립",
+   "year": "2026",
+   "fee": 7468046,
+   "feeGrade": "exact",
+   "campusSplit": null
+  },
+  {
+   "name": "국제사이버대학교(본교) 학부",
+   "region": "경기도",
+   "kind": "일반대",
+   "found": "사립",
+   "year": "2026",
+   "fee": 2524286,
+   "feeGrade": "exact",
+   "campusSplit": null
+  },
+  {
+   "name": "국제예술대학교",
+   "region": "서울특별시",
+   "kind": "전문대",
+   "found": "사립",
+   "year": "2026",
+   "fee": 4812874,
+   "feeGrade": "exact",
+   "campusSplit": null
+  },
+  {
+   "name": "군산간호대학교(본교)",
+   "region": "전라북도",
+   "kind": "전문대",
+   "found": "사립",
+   "year": "2026",
+   "fee": 6353625,
+   "feeGrade": "exact",
+   "campusSplit": null
+  },
+  {
+   "name": "군장대학교(본교)",
+   "region": "전라북도",
+   "kind": "전문대",
+   "found": "사립",
+   "year": "2026",
+   "fee": 5994493,
+   "feeGrade": "exact",
+   "campusSplit": null
+  },
+  {
+   "name": "극동대학교(본교) 학부",
+   "region": "충청북도",
+   "kind": "일반대",
+   "found": "사립",
+   "year": "2026",
+   "fee": 7846600,
+   "feeGrade": "exact",
+   "campusSplit": null
+  },
+  {
+   "name": "글로벌사이버대학교(본교) 학부",
+   "region": "충청남도",
+   "kind": "일반대",
+   "found": "사립",
+   "year": "2026",
+   "fee": 2502177,
+   "feeGrade": "exact",
+   "campusSplit": null
+  },
+  {
+   "name": "기독간호대학교(본교)",
+   "region": "광주광역시",
+   "kind": "전문대",
+   "found": "사립",
+   "year": "2026",
+   "fee": 5528713,
+   "feeGrade": "exact",
+   "campusSplit": null
+  },
+  {
+   "name": "김천대학교(본교) 학부",
+   "region": "경상북도",
+   "kind": "일반대",
+   "found": "사립",
+   "year": "2026",
+   "fee": 7387387,
+   "feeGrade": "exact",
+   "campusSplit": null
+  },
+  {
+   "name": "김포대학교(본교)",
+   "region": "경기도",
+   "kind": "전문대",
+   "found": "사립",
+   "year": "2026",
+   "fee": 7015264,
+   "feeGrade": "exact",
+   "campusSplit": null
+  },
+  {
+   "name": "김해대학교",
+   "region": "경상남도",
+   "kind": "전문대",
+   "found": "사립",
+   "year": "2026",
+   "fee": 6409704,
+   "feeGrade": "exact",
+   "campusSplit": null
+  },
+  {
+   "name": "나사렛대학교(본교) 학부",
+   "region": "충청남도",
+   "kind": "일반대",
+   "found": "사립",
+   "year": "2026",
+   "fee": 7911623,
+   "feeGrade": "exact",
+   "campusSplit": null
+  },
+  {
+   "name": "남부대학교(본교) 학부",
+   "region": "광주광역시",
+   "kind": "일반대",
+   "found": "사립",
+   "year": "2026",
+   "fee": 6766874,
+   "feeGrade": "exact",
+   "campusSplit": null
+  },
+  {
+   "name": "남서울대학교(본교) 학부",
+   "region": "충청남도",
+   "kind": "일반대",
+   "found": "사립",
+   "year": "2026",
+   "fee": 8616388,
+   "feeGrade": "exact",
+   "campusSplit": null
+  },
+  {
+   "name": "농협대학교(본교)",
+   "region": "경기도",
+   "kind": "전문대",
+   "found": "사립",
+   "year": "2026",
+   "fee": 4982667,
+   "feeGrade": "exact",
+   "campusSplit": null
+  },
+  {
+   "name": "단국대학교(죽전캠퍼스)",
+   "region": "경기도",
+   "kind": "일반대",
+   "found": "사립",
+   "year": "2026",
+   "fee": 8842298,
+   "feeGrade": "exact",
+   "campusSplit": null
+  },
+  {
+   "name": "단국대학교(천안캠퍼스)",
+   "region": "충청남도",
+   "kind": "일반대",
+   "found": "사립",
+   "year": "2026",
+   "fee": 8842298,
+   "feeGrade": "exact",
+   "campusSplit": null
+  },
+  {
+   "name": "대경대학교(본교)",
+   "region": "경상북도",
+   "kind": "전문대",
+   "found": "사립",
+   "year": "2026",
+   "fee": 6496174,
+   "feeGrade": "exact",
+   "campusSplit": null
+  },
+  {
+   "name": "대구가톨릭대학교(본교) 학부",
+   "region": "경상북도",
+   "kind": "일반대",
+   "found": "사립",
+   "year": "2026",
+   "fee": 7904801,
+   "feeGrade": "exact",
+   "campusSplit": null
+  },
+  {
+   "name": "대구경북과학기술원(본교) 학부",
+   "region": "대구광역시",
+   "kind": "일반대",
+   "found": "국립",
+   "year": "2026",
+   "fee": 7934000,
+   "feeGrade": "exact",
+   "campusSplit": null
+  },
+  {
+   "name": "대구공업대학교(본교)",
+   "region": "대구광역시",
+   "kind": "전문대",
+   "found": "사립",
+   "year": "2026",
+   "fee": 6040551,
+   "feeGrade": "exact",
+   "campusSplit": null
+  },
+  {
+   "name": "대구과학대학교(본교)",
+   "region": "대구광역시",
+   "kind": "전문대",
+   "found": "사립",
+   "year": "2026",
+   "fee": 6305808,
+   "feeGrade": "exact",
+   "campusSplit": null
+  },
+  {
+   "name": "대구교육대학교(본교) 학부",
+   "region": "대구광역시",
+   "kind": "일반대",
+   "found": "국립",
+   "year": "2026",
+   "fee": 3896000,
+   "feeGrade": "exact",
+   "campusSplit": null
+  },
+  {
+   "name": "대구대학교(본교) 학부",
+   "region": "경상북도",
+   "kind": "일반대",
+   "found": "사립",
+   "year": "2026",
+   "fee": 7556023,
+   "feeGrade": "exact",
+   "campusSplit": null
+  },
+  {
+   "name": "대구보건대학교(본교)",
+   "region": "대구광역시",
+   "kind": "전문대",
+   "found": "사립",
+   "year": "2026",
+   "fee": 6797857,
+   "feeGrade": "exact",
+   "campusSplit": null
+  },
+  {
+   "name": "대구사이버대학교(본교) 학부",
+   "region": "경상북도",
+   "kind": "일반대",
+   "found": "사립",
+   "year": "2026",
+   "fee": 2691790,
+   "feeGrade": "exact",
+   "campusSplit": null
+  },
+  {
+   "name": "대구한의대학교(본교) 학부",
+   "region": "경상북도",
+   "kind": "일반대",
+   "found": "사립",
+   "year": "2026",
+   "fee": 7845054,
+   "feeGrade": "exact",
+   "campusSplit": null
+  },
+  {
+   "name": "대덕대학교(본교)",
+   "region": "대전광역시",
+   "kind": "전문대",
+   "found": "사립",
+   "year": "2026",
+   "fee": 6268134,
+   "feeGrade": "exact",
+   "campusSplit": null
+  },
+  {
+   "name": "대동대학교(본교)",
+   "region": "부산광역시",
+   "kind": "전문대",
+   "found": "사립",
+   "year": "2026",
+   "fee": 6596194,
+   "feeGrade": "exact",
+   "campusSplit": null
+  },
+  {
+   "name": "대림대학교(본교)",
+   "region": "경기도",
+   "kind": "전문대",
+   "found": "사립",
+   "year": "2026",
+   "fee": 7359284,
+   "feeGrade": "exact",
+   "campusSplit": null
+  },
+  {
+   "name": "대신대학교(본교) 학부",
+   "region": "경상북도",
+   "kind": "일반대",
+   "found": "사립",
+   "year": "2026",
+   "fee": 6626353,
+   "feeGrade": "exact",
+   "campusSplit": null
+  },
+  {
+   "name": "대원대학교",
+   "region": "충청북도",
+   "kind": "전문대",
+   "found": "사립",
+   "year": "2026",
+   "fee": 6447453,
+   "feeGrade": "exact",
+   "campusSplit": null
+  },
+  {
+   "name": "대전가톨릭대학교(본교) 학부",
+   "region": "세종시",
+   "kind": "일반대",
+   "found": "사립",
+   "year": "2026",
+   "fee": 5760000,
+   "feeGrade": "exact",
+   "campusSplit": null
+  },
+  {
+   "name": "대전과학기술대학교(본교)",
+   "region": "대전광역시",
+   "kind": "전문대",
+   "found": "사립",
+   "year": "2026",
+   "fee": 6424652,
+   "feeGrade": "exact",
+   "campusSplit": null
+  },
+  {
+   "name": "대전대학교(본교) 학부",
+   "region": "대전광역시",
+   "kind": "일반대",
+   "found": "사립",
+   "year": "2026",
+   "fee": 7685682,
+   "feeGrade": "exact",
+   "campusSplit": null
+  },
+  {
+   "name": "대전보건대학교(본교)",
+   "region": "대전광역시",
+   "kind": "전문대",
+   "found": "사립",
+   "year": "2026",
+   "fee": 6505339,
+   "feeGrade": "exact",
+   "campusSplit": null
+  },
+  {
+   "name": "대전신학대학교(본교) 학부",
+   "region": "대전광역시",
+   "kind": "일반대",
+   "found": "사립",
+   "year": "2026",
+   "fee": 6100000,
+   "feeGrade": "exact",
+   "campusSplit": null
+  },
+  {
+   "name": "대진대학교(본교) 학부",
+   "region": "경기도",
+   "kind": "일반대",
+   "found": "사립",
+   "year": "2026",
+   "fee": 8246989,
+   "feeGrade": "exact",
+   "campusSplit": null
+  },
+  {
+   "name": "덕성여자대학교(본교) 학부",
+   "region": "서울특별시",
+   "kind": "일반대",
+   "found": "사립",
+   "year": "2026",
+   "fee": 7810761,
+   "feeGrade": "exact",
+   "campusSplit": null
+  },
+  {
+   "name": "동강대학교(본교)",
+   "region": "광주광역시",
+   "kind": "전문대",
+   "found": "사립",
+   "year": "2026",
+   "fee": 5860777,
+   "feeGrade": "exact",
+   "campusSplit": null
+  },
+  {
+   "name": "동국대학교(본교) 학부",
+   "region": "서울특별시",
+   "kind": "일반대",
+   "found": "사립",
+   "year": "2026",
+   "fee": 8560649,
+   "feeGrade": "exact",
+   "campusSplit": null
+  },
+  {
+   "name": "동국대학교(분교) 학부",
+   "region": "경상북도",
+   "kind": "일반대",
+   "found": "사립",
+   "year": "2026",
+   "fee": 8560649,
+   "feeGrade": "exact",
+   "campusSplit": null
+  },
+  {
+   "name": "동남보건대학교(본교)",
+   "region": "경기도",
+   "kind": "전문대",
+   "found": "사립",
+   "year": "2026",
+   "fee": 6785908,
+   "feeGrade": "exact",
+   "campusSplit": null
+  },
+  {
+   "name": "동덕여자대학교(본교) 학부",
+   "region": "서울특별시",
+   "kind": "일반대",
+   "found": "사립",
+   "year": "2026",
+   "fee": 8126347,
+   "feeGrade": "exact",
+   "campusSplit": null
+  },
+  {
+   "name": "동명대학교(본교) 학부",
+   "region": "부산광역시",
+   "kind": "일반대",
+   "found": "사립",
+   "year": "2026",
+   "fee": 7663538,
+   "feeGrade": "exact",
+   "campusSplit": null
+  },
+  {
+   "name": "동서대학교(본교) 학부",
+   "region": "부산광역시",
+   "kind": "일반대",
+   "found": "사립",
+   "year": "2026",
+   "fee": 7543205,
+   "feeGrade": "exact",
+   "campusSplit": null
+  },
+  {
+   "name": "동서울대학교(본교)",
+   "region": "경기도",
+   "kind": "전문대",
+   "found": "사립",
+   "year": "2026",
+   "fee": 7161803,
+   "feeGrade": "exact",
+   "campusSplit": null
+  },
+  {
+   "name": "동신대학교(본교) 학부",
+   "region": "전라남도",
+   "kind": "일반대",
+   "found": "사립",
+   "year": "2026",
+   "fee": 7249026,
+   "feeGrade": "exact",
+   "campusSplit": null
+  },
+  {
+   "name": "동아대학교(본교) 학부",
+   "region": "부산광역시",
+   "kind": "일반대",
+   "found": "사립",
+   "year": "2026",
+   "fee": 7896058,
+   "feeGrade": "exact",
+   "campusSplit": null
+  },
+  {
+   "name": "동아방송예술대학교(본교)",
+   "region": "경기도",
+   "kind": "전문대",
+   "found": "사립",
+   "year": "2026",
+   "fee": 7877336,
+   "feeGrade": "exact",
+   "campusSplit": null
+  },
+  {
+   "name": "동아보건대학교(본교)",
+   "region": "전라남도",
+   "kind": "전문대",
+   "found": "사립",
+   "year": "2026",
+   "fee": 4846807,
+   "feeGrade": "exact",
+   "campusSplit": null
+  },
+  {
+   "name": "동양대학교(본교) 학부",
+   "region": "경상북도",
+   "kind": "일반대",
+   "found": "사립",
+   "year": "2026",
+   "fee": 7942643,
+   "feeGrade": "exact",
+   "campusSplit": null
+  },
+  {
+   "name": "동양미래대학교(본교)",
+   "region": "서울특별시",
+   "kind": "전문대",
+   "found": "사립",
+   "year": "2026",
+   "fee": 7237318,
+   "feeGrade": "exact",
+   "campusSplit": null
+  },
+  {
+   "name": "동원과학기술대학교(본교)",
+   "region": "경상남도",
+   "kind": "전문대",
+   "found": "사립",
+   "year": "2026",
+   "fee": 6373017,
+   "feeGrade": "exact",
+   "campusSplit": null
+  },
+  {
+   "name": "동원대학교(본교)",
+   "region": "경기도",
+   "kind": "전문대",
+   "found": "사립",
+   "year": "2026",
+   "fee": 7343440,
+   "feeGrade": "exact",
+   "campusSplit": null
+  },
+  {
+   "name": "동의과학대학교(본교)",
+   "region": "부산광역시",
+   "kind": "전문대",
+   "found": "사립",
+   "year": "2026",
+   "fee": 6875240,
+   "feeGrade": "exact",
+   "campusSplit": null
+  },
+  {
+   "name": "동의대학교(본교) 학부",
+   "region": "부산광역시",
+   "kind": "일반대",
+   "found": "사립",
+   "year": "2026",
+   "fee": 7580401,
+   "feeGrade": "exact",
+   "campusSplit": null
+  },
+  {
+   "name": "두원공과대학교(본교)",
+   "region": "경기도",
+   "kind": "전문대",
+   "found": "사립",
+   "year": "2026",
+   "fee": 7019783,
+   "feeGrade": "exact",
+   "campusSplit": null
+  },
+  {
+   "name": "디지털서울문화예술대학교(본교) 학부",
+   "region": "서울특별시",
+   "kind": "일반대",
+   "found": "사립",
+   "year": "2026",
+   "fee": 3126350,
+   "feeGrade": "exact",
+   "campusSplit": null
+  },
+  {
+   "name": "루터대학교(본교) 학부",
+   "region": "경기도",
+   "kind": "일반대",
+   "found": "사립",
+   "year": "2026",
+   "fee": 6300000,
+   "feeGrade": "exact",
+   "campusSplit": null
+  },
+  {
+   "name": "마산대학교(본교)",
+   "region": "경상남도",
+   "kind": "전문대",
+   "found": "사립",
+   "year": "2026",
+   "fee": 6397886,
+   "feeGrade": "exact",
+   "campusSplit": null
+  },
+  {
+   "name": "명지대학교 인문캠퍼스",
+   "region": "서울특별시",
+   "kind": "일반대",
+   "found": "사립",
+   "year": "2026",
+   "fee": null,
+   "feeGrade": "none",
+   "campusSplit": null
+  },
+  {
+   "name": "명지대학교 자연캠퍼스",
+   "region": "경기도",
+   "kind": "일반대",
+   "found": "사립",
+   "year": "2026",
+   "fee": null,
+   "feeGrade": "none",
+   "campusSplit": null
+  },
+  {
+   "name": "명지전문대학(본교)",
+   "region": "서울특별시",
+   "kind": "전문대",
+   "found": "사립",
+   "year": "2026",
+   "fee": 7163968,
+   "feeGrade": "exact",
+   "campusSplit": null
+  },
+  {
+   "name": "목원대학교(본교) 학부",
+   "region": "대전광역시",
+   "kind": "일반대",
+   "found": "사립",
+   "year": "2026",
+   "fee": 7965994,
+   "feeGrade": "exact",
+   "campusSplit": null
+  },
+  {
+   "name": "목포가톨릭대학교(본교) 학부",
+   "region": "전라남도",
+   "kind": "일반대",
+   "found": "사립",
+   "year": "2026",
+   "fee": 6758000,
+   "feeGrade": "exact",
+   "campusSplit": null
+  },
+  {
+   "name": "목포과학대학교(본교)",
+   "region": "전라남도",
+   "kind": "전문대",
+   "found": "사립",
+   "year": "2026",
+   "fee": 6106661,
+   "feeGrade": "exact",
+   "campusSplit": null
+  },
+  {
+   "name": "문경대학교(본교)",
+   "region": "경상북도",
+   "kind": "전문대",
+   "found": "사립",
+   "year": "2026",
+   "fee": 6357049,
+   "feeGrade": "exact",
+   "campusSplit": null
+  },
+  {
+   "name": "배재대학교(본교) 학부",
+   "region": "대전광역시",
+   "kind": "일반대",
+   "found": "사립",
+   "year": "2026",
+   "fee": 7959588,
+   "feeGrade": "exact",
+   "campusSplit": null
+  },
+  {
+   "name": "배화여자대학교(본교)",
+   "region": "서울특별시",
+   "kind": "전문대",
+   "found": "사립",
+   "year": "2026",
+   "fee": 6825819,
+   "feeGrade": "exact",
+   "campusSplit": null
+  },
+  {
+   "name": "백석대학교(본교) 학부",
+   "region": "충청남도",
+   "kind": "일반대",
+   "found": "사립",
+   "year": "2026",
+   "fee": 8626214,
+   "feeGrade": "exact",
+   "campusSplit": null
+  },
+  {
+   "name": "백석문화대학교(본교)",
+   "region": "충청남도",
+   "kind": "전문대",
+   "found": "사립",
+   "year": "2026",
+   "fee": 7501632,
+   "feeGrade": "exact",
+   "campusSplit": null
+  },
+  {
+   "name": "백석예술대학교",
+   "region": "서울특별시",
+   "kind": "전문대",
+   "found": "사립",
+   "year": "2026",
+   "fee": 9013415,
+   "feeGrade": "exact",
+   "campusSplit": null
+  },
+  {
+   "name": "백제예술대학교(본교)",
+   "region": "전라북도",
+   "kind": "전문대",
+   "found": "사립",
+   "year": "2026",
+   "fee": 8080686,
+   "feeGrade": "exact",
+   "campusSplit": null
+  },
+  {
+   "name": "부산가톨릭대학교(본교) 학부",
+   "region": "부산광역시",
+   "kind": "일반대",
+   "found": "사립",
+   "year": "2026",
+   "fee": 7470200,
+   "feeGrade": "exact",
+   "campusSplit": null
+  },
+  {
+   "name": "부산경상대학교(본교)",
+   "region": "부산광역시",
+   "kind": "전문대",
+   "found": "사립",
+   "year": "2026",
+   "fee": 5696013,
+   "feeGrade": "exact",
+   "campusSplit": null
+  },
+  {
+   "name": "부산과학기술대학교(본교)",
+   "region": "부산광역시",
+   "kind": "전문대",
+   "found": "사립",
+   "year": "2026",
+   "fee": 6595823,
+   "feeGrade": "exact",
+   "campusSplit": null
+  },
+  {
+   "name": "부산교육대학교(본교) 학부",
+   "region": "부산광역시",
+   "kind": "일반대",
+   "found": "국립",
+   "year": "2026",
+   "fee": 3316000,
+   "feeGrade": "exact",
+   "campusSplit": null
+  },
+  {
+   "name": "부산대학교(본교) 학부",
+   "region": "부산광역시",
+   "kind": "일반대",
+   "found": "국립",
+   "year": "2026",
+   "fee": 4514543,
+   "feeGrade": "exact",
+   "campusSplit": null
+  },
+  {
+   "name": "부산디지털대학교(본교) 학부",
+   "region": "부산광역시",
+   "kind": "일반대",
+   "found": "사립",
+   "year": "2026",
+   "fee": 2522964,
+   "feeGrade": "exact",
+   "campusSplit": null
+  },
+  {
+   "name": "부산보건대학교(본교)",
+   "region": "부산광역시",
+   "kind": "전문대",
+   "found": "사립",
+   "year": "2026",
+   "fee": 6614811,
+   "feeGrade": "exact",
+   "campusSplit": null
+  },
+  {
+   "name": "부산여자대학교(본교)",
+   "region": "부산광역시",
+   "kind": "전문대",
+   "found": "사립",
+   "year": "2026",
+   "fee": 6503939,
+   "feeGrade": "exact",
+   "campusSplit": null
+  },
+  {
+   "name": "부산외국어대학교(본교) 학부",
+   "region": "부산광역시",
+   "kind": "일반대",
+   "found": "사립",
+   "year": "2026",
+   "fee": 7046968,
+   "feeGrade": "exact",
+   "campusSplit": null
+  },
+  {
+   "name": "부산장신대학교(본교) 학부",
+   "region": "경상남도",
+   "kind": "일반대",
+   "found": "사립",
+   "year": "2026",
+   "fee": 6316875,
+   "feeGrade": "exact",
+   "campusSplit": null
+  },
+  {
+   "name": "부천대학교(본교)",
+   "region": "경기도",
+   "kind": "전문대",
+   "found": "사립",
+   "year": "2026",
+   "fee": 6909185,
+   "feeGrade": "exact",
+   "campusSplit": null
+  },
+  {
+   "name": "사이버한국외국어대학교(본교) 학부",
+   "region": "서울특별시",
+   "kind": "일반대",
+   "found": "사립",
+   "year": "2026",
+   "fee": 2888042,
+   "feeGrade": "exact",
+   "campusSplit": null
+  },
+  {
+   "name": "삼육대학교(본교) 학부",
+   "region": "서울특별시",
+   "kind": "일반대",
+   "found": "사립",
+   "year": "2026",
+   "fee": 8537543,
+   "feeGrade": "exact",
+   "campusSplit": null
+  },
+  {
+   "name": "삼육보건대학교",
+   "region": "서울특별시",
+   "kind": "전문대",
+   "found": "사립",
+   "year": "2026",
+   "fee": 6296215,
+   "feeGrade": "exact",
+   "campusSplit": null
+  },
+  {
+   "name": "상명대학교(본교) 학부",
+   "region": "서울특별시",
+   "kind": "일반대",
+   "found": "사립",
+   "year": "2026",
+   "fee": 8596065,
+   "feeGrade": "exact",
+   "campusSplit": null
+  },
+  {
+   "name": "상지대학교(본교) 학부",
+   "region": "강원도",
+   "kind": "일반대",
+   "found": "사립",
+   "year": "2026",
+   "fee": 8112354,
+   "feeGrade": "exact",
+   "campusSplit": null
+  },
+  {
+   "name": "서강대학교(본교) 학부",
+   "region": "서울특별시",
+   "kind": "일반대",
+   "found": "사립",
+   "year": "2026",
+   "fee": 8698677,
+   "feeGrade": "exact",
+   "campusSplit": null
+  },
+  {
+   "name": "서경대학교(본교) 학부",
+   "region": "서울특별시",
+   "kind": "일반대",
+   "found": "사립",
+   "year": "2026",
+   "fee": 8688696,
+   "feeGrade": "exact",
+   "campusSplit": null
+  },
+  {
+   "name": "서영대학교(본교)",
+   "region": "광주광역시",
+   "kind": "전문대",
+   "found": "사립",
+   "year": "2026",
+   "fee": 6027954,
+   "feeGrade": "exact",
+   "campusSplit": null
+  },
+  {
+   "name": "서울과학기술대학교(본교) 학부",
+   "region": "서울특별시",
+   "kind": "일반대",
+   "found": "국립",
+   "year": "2026",
+   "fee": 5494477,
+   "feeGrade": "exact",
+   "campusSplit": null
+  },
+  {
+   "name": "서울교육대학교(본교) 학부",
+   "region": "서울특별시",
+   "kind": "일반대",
+   "found": "국립",
+   "year": "2026",
+   "fee": 3256000,
+   "feeGrade": "exact",
+   "campusSplit": null
+  },
+  {
+   "name": "서울기독대학교(본교) 학부",
+   "region": "서울특별시",
+   "kind": "일반대",
+   "found": "사립",
+   "year": "2026",
+   "fee": 8139118,
+   "feeGrade": "exact",
+   "campusSplit": null
+  },
+  {
+   "name": "서울대학교(본교) 학부",
+   "region": "서울특별시",
+   "kind": "일반대",
+   "found": "국립",
+   "year": "2026",
+   "fee": 6091816,
+   "feeGrade": "exact",
+   "campusSplit": null
+  },
+  {
+   "name": "서울디지털대학교(본교) 학부",
+   "region": "서울특별시",
+   "kind": "일반대",
+   "found": "사립",
+   "year": "2026",
+   "fee": 2311659,
+   "feeGrade": "exact",
+   "campusSplit": null
+  },
+  {
+   "name": "서울사이버대학교(본교) 학부",
+   "region": "서울특별시",
+   "kind": "일반대",
+   "found": "사립",
+   "year": "2026",
+   "fee": 2850600,
+   "feeGrade": "exact",
+   "campusSplit": null
+  },
+  {
+   "name": "서울시립대학교(본교) 학부",
+   "region": "서울특별시",
+   "kind": "일반대",
+   "found": "공립",
+   "year": "2026",
+   "fee": 2530266,
+   "feeGrade": "exact",
+   "campusSplit": null
+  },
+  {
+   "name": "서울신학대학교(본교) 학부",
+   "region": "경기도",
+   "kind": "일반대",
+   "found": "사립",
+   "year": "2026",
+   "fee": 7676277,
+   "feeGrade": "exact",
+   "campusSplit": null
+  },
+  {
+   "name": "서울여자간호대학교(본교)",
+   "region": "서울특별시",
+   "kind": "전문대",
+   "found": "사립",
+   "year": "2026",
+   "fee": 6963750,
+   "feeGrade": "exact",
+   "campusSplit": null
+  },
+  {
+   "name": "서울여자대학교(본교) 학부",
+   "region": "서울특별시",
+   "kind": "일반대",
+   "found": "사립",
+   "year": "2026",
+   "fee": 8244464,
+   "feeGrade": "exact",
+   "campusSplit": null
+  },
+  {
+   "name": "서울예술대학교(본교)",
+   "region": "경기도",
+   "kind": "전문대",
+   "found": "사립",
+   "year": "2026",
+   "fee": 8694943,
+   "feeGrade": "exact",
+   "campusSplit": null
+  },
+  {
+   "name": "서울장신대학교(본교) 학부",
+   "region": "경기도",
+   "kind": "일반대",
+   "found": "사립",
+   "year": "2026",
+   "fee": 7781327,
+   "feeGrade": "exact",
+   "campusSplit": null
+  },
+  {
+   "name": "서울한영대학교(본교)학부",
+   "region": "서울특별시",
+   "kind": "일반대",
+   "found": "사립",
+   "year": "2026",
+   "fee": 7245389,
+   "feeGrade": "exact",
+   "campusSplit": null
+  },
+  {
+   "name": "서원대학교(본교) 학부",
+   "region": "충청북도",
+   "kind": "일반대",
+   "found": "사립",
+   "year": "2026",
+   "fee": 7574191,
+   "feeGrade": "exact",
+   "campusSplit": null
+  },
+  {
+   "name": "서일대학교",
+   "region": "서울특별시",
+   "kind": "전문대",
+   "found": "사립",
+   "year": "2026",
+   "fee": 6909536,
+   "feeGrade": "exact",
+   "campusSplit": null
+  },
+  {
+   "name": "서정대학교(본교)",
+   "region": "경기도",
+   "kind": "전문대",
+   "found": "사립",
+   "year": "2026",
+   "fee": 6310353,
+   "feeGrade": "exact",
+   "campusSplit": null
+  },
+  {
+   "name": "선린대학교(본교)",
+   "region": "경상북도",
+   "kind": "전문대",
+   "found": "사립",
+   "year": "2026",
+   "fee": 6301219,
+   "feeGrade": "exact",
+   "campusSplit": null
+  },
+  {
+   "name": "선문대학교(본교) 학부",
+   "region": "충청남도",
+   "kind": "일반대",
+   "found": "사립",
+   "year": "2026",
+   "fee": 8244256,
+   "feeGrade": "exact",
+   "campusSplit": null
+  },
+  {
+   "name": "성결대학교(본교) 학부",
+   "region": "경기도",
+   "kind": "일반대",
+   "found": "사립",
+   "year": "2026",
+   "fee": 7857086,
+   "feeGrade": "exact",
+   "campusSplit": null
+  },
+  {
+   "name": "성공회대학교(본교) 학부",
+   "region": "서울특별시",
+   "kind": "일반대",
+   "found": "사립",
+   "year": "2026",
+   "fee": 7626672,
+   "feeGrade": "exact",
+   "campusSplit": null
+  },
+  {
+   "name": "성균관대학교(본교) 학부",
+   "region": "서울특별시",
+   "kind": "일반대",
+   "found": "사립",
+   "year": "2026",
+   "fee": 9145524,
+   "feeGrade": "exact",
+   "campusSplit": null
+  },
+  {
+   "name": "성신여자대학교(본교) 학부",
+   "region": "서울특별시",
+   "kind": "일반대",
+   "found": "사립",
+   "year": "2026",
+   "fee": 8437832,
+   "feeGrade": "exact",
+   "campusSplit": null
+  },
+  {
+   "name": "성운대학교(본교)",
+   "region": "경상북도",
+   "kind": "전문대",
+   "found": "사립",
+   "year": "2026",
+   "fee": 5467121,
+   "feeGrade": "exact",
+   "campusSplit": null
+  },
+  {
+   "name": "세경대학교(본교)",
+   "region": "강원도",
+   "kind": "전문대",
+   "found": "사립",
+   "year": "2026",
+   "fee": 5372224,
+   "feeGrade": "exact",
+   "campusSplit": null
+  },
+  {
+   "name": "세계사이버대학(본교)",
+   "region": "경기도",
+   "kind": "전문대",
+   "found": "사립",
+   "year": "2026",
+   "fee": null,
+   "feeGrade": "none",
+   "campusSplit": null
+  },
+  {
+   "name": "세명대학교(본교) 학부",
+   "region": "충청북도",
+   "kind": "일반대",
+   "found": "사립",
+   "year": "2026",
+   "fee": 7503323,
+   "feeGrade": "exact",
+   "campusSplit": null
+  },
+  {
+   "name": "세종대학교(본교) 학부",
+   "region": "서울특별시",
+   "kind": "일반대",
+   "found": "사립",
+   "year": "2026",
+   "fee": 8651037,
+   "feeGrade": "exact",
+   "campusSplit": null
+  },
+  {
+   "name": "세종사이버대학교(본교) 학부",
+   "region": "서울특별시",
+   "kind": "일반대",
+   "found": "사립",
+   "year": "2026",
+   "fee": 2920579,
+   "feeGrade": "exact",
+   "campusSplit": null
+  },
+  {
+   "name": "세한대학교(본교) 학부",
+   "region": "전라남도",
+   "kind": "일반대",
+   "found": "사립",
+   "year": "2026",
+   "fee": 8013059,
+   "feeGrade": "exact",
+   "campusSplit": null
+  },
+  {
+   "name": "송곡대학교(본교)",
+   "region": "강원도",
+   "kind": "전문대",
+   "found": "사립",
+   "year": "2026",
+   "fee": 5619870,
+   "feeGrade": "exact",
+   "campusSplit": null
+  },
+  {
+   "name": "송원대학교(본교) 학부",
+   "region": "광주광역시",
+   "kind": "일반대",
+   "found": "사립",
+   "year": "2026",
+   "fee": 7106105,
+   "feeGrade": "exact",
+   "campusSplit": null
+  },
+  {
+   "name": "수성대학교(본교)",
+   "region": "대구광역시",
+   "kind": "전문대",
+   "found": "사립",
+   "year": "2026",
+   "fee": 6388043,
+   "feeGrade": "exact",
+   "campusSplit": null
+  },
+  {
+   "name": "수원가톨릭대학교(본교) 학부",
+   "region": "경기도",
+   "kind": "일반대",
+   "found": "사립",
+   "year": "2026",
+   "fee": 5249000,
+   "feeGrade": "exact",
+   "campusSplit": null
+  },
+  {
+   "name": "수원대학교(본교) 학부",
+   "region": "경기도",
+   "kind": "일반대",
+   "found": "사립",
+   "year": "2026",
+   "fee": 8195102,
+   "feeGrade": "exact",
+   "campusSplit": null
+  },
+  {
+   "name": "수원여자대학교(본교)",
+   "region": "경기도",
+   "kind": "전문대",
+   "found": "사립",
+   "year": "2026",
+   "fee": 7213277,
+   "feeGrade": "exact",
+   "campusSplit": null
+  },
+  {
+   "name": "숙명여자대학교(본교) 학부",
+   "region": "서울특별시",
+   "kind": "일반대",
+   "found": "사립",
+   "year": "2026",
+   "fee": 8825485,
+   "feeGrade": "exact",
+   "campusSplit": null
+  },
+  {
+   "name": "순복음총회신학교(본교) 학부",
+   "region": "충청북도",
+   "kind": "일반대",
+   "found": "사립",
+   "year": "2026",
+   "fee": 6243103,
+   "feeGrade": "exact",
+   "campusSplit": null
+  },
+  {
+   "name": "순천제일대학교(본교)",
+   "region": "전라남도",
+   "kind": "전문대",
+   "found": "사립",
+   "year": "2026",
+   "fee": 5903468,
+   "feeGrade": "exact",
+   "campusSplit": null
+  },
+  {
+   "name": "순천향대학교(본교) 학부",
+   "region": "충청남도",
+   "kind": "일반대",
+   "found": "사립",
+   "year": "2026",
+   "fee": 8540657,
+   "feeGrade": "exact",
+   "campusSplit": null
+  },
+  {
+   "name": "숭실대학교(본교) 학부",
+   "region": "서울특별시",
+   "kind": "일반대",
+   "found": "사립",
+   "year": "2026",
+   "fee": 8643438,
+   "feeGrade": "exact",
+   "campusSplit": null
+  },
+  {
+   "name": "숭실사이버대학교(본교) 학부",
+   "region": "서울특별시",
+   "kind": "일반대",
+   "found": "사립",
+   "year": "2026",
+   "fee": 2772245,
+   "feeGrade": "exact",
+   "campusSplit": null
+  },
+  {
+   "name": "숭의여자대학교(본교)",
+   "region": "서울특별시",
+   "kind": "전문대",
+   "found": "사립",
+   "year": "2026",
+   "fee": 6587313,
+   "feeGrade": "exact",
+   "campusSplit": null
+  },
+  {
+   "name": "신구대학교(본교)",
+   "region": "경기도",
+   "kind": "전문대",
+   "found": "사립",
+   "year": "2026",
+   "fee": 7227606,
+   "feeGrade": "exact",
+   "campusSplit": null
+  },
+  {
+   "name": "신라대학교(본교) 학부",
+   "region": "부산광역시",
+   "kind": "일반대",
+   "found": "사립",
+   "year": "2026",
+   "fee": 7298402,
+   "feeGrade": "exact",
+   "campusSplit": null
+  },
+  {
+   "name": "신성대학교(본교)",
+   "region": "충청남도",
+   "kind": "전문대",
+   "found": "사립",
+   "year": "2026",
+   "fee": 6915858,
+   "feeGrade": "exact",
+   "campusSplit": null
+  },
+  {
+   "name": "신안산대학교(본교)",
+   "region": "경기도",
+   "kind": "전문대",
+   "found": "사립",
+   "year": "2026",
+   "fee": 7253398,
+   "feeGrade": "exact",
+   "campusSplit": null
+  },
+  {
+   "name": "신한대학교(본교)",
+   "region": "경기도",
+   "kind": "일반대",
+   "found": "사립",
+   "year": "2026",
+   "fee": 9187367,
+   "feeGrade": "exact",
+   "campusSplit": null
+  },
+  {
+   "name": "아신대학교(본교) 학부",
+   "region": "경기도",
+   "kind": "일반대",
+   "found": "사립",
+   "year": "2026",
+   "fee": 6900000,
+   "feeGrade": "exact",
+   "campusSplit": null
+  },
+  {
+   "name": "아주대학교(본교) 학부",
+   "region": "경기도",
+   "kind": "일반대",
+   "found": "사립",
+   "year": "2026",
+   "fee": 9093155,
+   "feeGrade": "exact",
+   "campusSplit": null
+  },
+  {
+   "name": "아주자동차대학(본교)",
+   "region": "충청남도",
+   "kind": "전문대",
+   "found": "사립",
+   "year": "2026",
+   "fee": null,
+   "feeGrade": "none",
+   "campusSplit": null
+  },
+  {
+   "name": "안동과학대학교(본교)",
+   "region": "경상북도",
+   "kind": "전문대",
+   "found": "사립",
+   "year": "2026",
+   "fee": 5939265,
+   "feeGrade": "exact",
+   "campusSplit": null
+  },
+  {
+   "name": "안산대학교(본교)",
+   "region": "경기도",
+   "kind": "전문대",
+   "found": "사립",
+   "year": "2026",
+   "fee": 6616946,
+   "feeGrade": "exact",
+   "campusSplit": null
+  },
+  {
+   "name": "안양대학교(본교) 학부",
+   "region": "경기도",
+   "kind": "일반대",
+   "found": "사립",
+   "year": "2026",
+   "fee": 8369571,
+   "feeGrade": "exact",
+   "campusSplit": null
+  },
+  {
+   "name": "여주대학교(본교)",
+   "region": "경기도",
+   "kind": "전문대",
+   "found": "사립",
+   "year": "2026",
+   "fee": 7519322,
+   "feeGrade": "exact",
+   "campusSplit": null
+  },
+  {
+   "name": "연성대학교(본교)",
+   "region": "경기도",
+   "kind": "전문대",
+   "found": "사립",
+   "year": "2026",
+   "fee": 7086393,
+   "feeGrade": "exact",
+   "campusSplit": null
+  },
+  {
+   "name": "연세대학교 미래캠퍼스(분교) 학부",
+   "region": "강원도",
+   "kind": "일반대",
+   "found": "사립",
+   "year": "2026",
+   "fee": null,
+   "feeGrade": "none",
+   "campusSplit": null
+  },
+  {
+   "name": "연세대학교(본교) 학부",
+   "region": "서울특별시",
+   "kind": "일반대",
+   "found": "사립",
+   "year": "2026",
+   "fee": 9745809,
+   "feeGrade": "exact",
+   "campusSplit": null
+  },
+  {
+   "name": "연암공과대학교",
+   "region": "경상남도",
+   "kind": "전문대",
+   "found": "사립",
+   "year": "2026",
+   "fee": 5568096,
+   "feeGrade": "exact",
+   "campusSplit": null
+  },
+  {
+   "name": "연암대학교",
+   "region": "충청남도",
+   "kind": "전문대",
+   "found": "사립",
+   "year": "2026",
+   "fee": 6283484,
+   "feeGrade": "exact",
+   "campusSplit": null
+  },
+  {
+   "name": "영남대학교(본교) 학부",
+   "region": "경상북도",
+   "kind": "일반대",
+   "found": "사립",
+   "year": "2026",
+   "fee": 8072811,
+   "feeGrade": "exact",
+   "campusSplit": null
+  },
+  {
+   "name": "영남사이버대학교(본교) 학부",
+   "region": "경상북도",
+   "kind": "일반대",
+   "found": "사립",
+   "year": "2026",
+   "fee": null,
+   "feeGrade": "none",
+   "campusSplit": null
+  },
+  {
+   "name": "영남이공대학교(본교)",
+   "region": "대구광역시",
+   "kind": "전문대",
+   "found": "사립",
+   "year": "2026",
+   "fee": 6688516,
+   "feeGrade": "exact",
+   "campusSplit": null
+  },
+  {
+   "name": "영산대학교(본교) 학부",
+   "region": "경상남도",
+   "kind": "일반대",
+   "found": "사립",
+   "year": "2026",
+   "fee": 7388997,
+   "feeGrade": "exact",
+   "campusSplit": null
+  },
+  {
+   "name": "영산선학대학교(본교) 학부",
+   "region": "전라남도",
+   "kind": "일반대",
+   "found": "사립",
+   "year": "2026",
+   "fee": 2000000,
+   "feeGrade": "exact",
+   "campusSplit": null
+  },
+  {
+   "name": "영진사이버대학교(본교)",
+   "region": "대구광역시",
+   "kind": "전문대",
+   "found": "사립",
+   "year": "2026",
+   "fee": 2498803,
+   "feeGrade": "exact",
+   "campusSplit": null
+  },
+  {
+   "name": "영진전문대학교(본교)",
+   "region": "대구광역시",
+   "kind": "전문대",
+   "found": "사립",
+   "year": "2026",
+   "fee": 6757226,
+   "feeGrade": "exact",
+   "campusSplit": null
+  },
+  {
+   "name": "예수대학교(본교) 학부",
+   "region": "전라북도",
+   "kind": "일반대",
+   "found": "사립",
+   "year": "2026",
+   "fee": 7491000,
+   "feeGrade": "exact",
+   "campusSplit": null
+  },
+  {
+   "name": "오산대학교(본교)",
+   "region": "경기도",
+   "kind": "전문대",
+   "found": "사립",
+   "year": "2026",
+   "fee": 7075414,
+   "feeGrade": "exact",
+   "campusSplit": null
+  },
+  {
+   "name": "용인대학교(본교) 학부",
+   "region": "경기도",
+   "kind": "일반대",
+   "found": "사립",
+   "year": "2026",
+   "fee": 8424517,
+   "feeGrade": "exact",
+   "campusSplit": null
+  },
+  {
+   "name": "용인예술과학대학교(본교)",
+   "region": "경기도",
+   "kind": "전문대",
+   "found": "사립",
+   "year": "2026",
+   "fee": 7453472,
+   "feeGrade": "exact",
+   "campusSplit": null
+  },
+  {
+   "name": "우석대학교(본교) 학부",
+   "region": "전라북도",
+   "kind": "일반대",
+   "found": "사립",
+   "year": "2026",
+   "fee": 7519491,
+   "feeGrade": "exact",
+   "campusSplit": null
+  },
+  {
+   "name": "우송대학교(본교) 학부",
+   "region": "대전광역시",
+   "kind": "일반대",
+   "found": "사립",
+   "year": "2026",
+   "fee": 7817764,
+   "feeGrade": "exact",
+   "campusSplit": null
+  },
+  {
+   "name": "우송정보대학(본교)",
+   "region": "대전광역시",
+   "kind": "전문대",
+   "found": "사립",
+   "year": "2026",
+   "fee": 6636858,
+   "feeGrade": "exact",
+   "campusSplit": null
+  },
+  {
+   "name": "울산과학기술원(본교) 학부",
+   "region": "울산광역시",
+   "kind": "일반대",
+   "found": "국립",
+   "year": "2026",
+   "fee": 6567981,
+   "feeGrade": "exact",
+   "campusSplit": null
+  },
+  {
+   "name": "울산과학대학교(본교)",
+   "region": "울산광역시",
+   "kind": "전문대",
+   "found": "사립",
+   "year": "2026",
+   "fee": 6701182,
+   "feeGrade": "exact",
+   "campusSplit": null
+  },
+  {
+   "name": "울산대학교(본교) 학부",
+   "region": "울산광역시",
+   "kind": "일반대",
+   "found": "사립",
+   "year": "2026",
+   "fee": 7966453,
+   "feeGrade": "exact",
+   "campusSplit": null
+  },
+  {
+   "name": "원광대학교(본교) 학부",
+   "region": "전라북도",
+   "kind": "일반대",
+   "found": "사립",
+   "year": "2026",
+   "fee": 8097127,
+   "feeGrade": "exact",
+   "campusSplit": null
+  },
+  {
+   "name": "원광디지털대학교(본교) 학부",
+   "region": "전라북도",
+   "kind": "일반대",
+   "found": "사립",
+   "year": "2026",
+   "fee": 2735094,
+   "feeGrade": "exact",
+   "campusSplit": null
+  },
+  {
+   "name": "원광보건대학교(본교)",
+   "region": "전라북도",
+   "kind": "전문대",
+   "found": "사립",
+   "year": "2026",
+   "fee": 6668343,
+   "feeGrade": "exact",
+   "campusSplit": null
+  },
+  {
+   "name": "위덕대학교(본교) 학부",
+   "region": "경상북도",
+   "kind": "일반대",
+   "found": "사립",
+   "year": "2026",
+   "fee": 7312526,
+   "feeGrade": "exact",
+   "campusSplit": null
+  },
+  {
+   "name": "유원대학교(본교) 학부",
+   "region": "충청북도",
+   "kind": "일반대",
+   "found": "사립",
+   "year": "2026",
+   "fee": 7193377,
+   "feeGrade": "exact",
+   "campusSplit": null
+  },
+  {
+   "name": "유한대학교(본교)",
+   "region": "경기도",
+   "kind": "전문대",
+   "found": "사립",
+   "year": "2026",
+   "fee": 6756635,
+   "feeGrade": "exact",
+   "campusSplit": null
+  },
+  {
+   "name": "을지대학교(대전캠퍼스)",
+   "region": "대전광역시",
+   "kind": "일반대",
+   "found": "사립",
+   "year": "2026",
+   "fee": 9247500,
+   "feeGrade": "exact",
+   "campusSplit": null
+  },
+  {
+   "name": "을지대학교(성남캠퍼스)",
+   "region": "경기도",
+   "kind": "일반대",
+   "found": "사립",
+   "year": "2026",
+   "fee": 9247500,
+   "feeGrade": "exact",
+   "campusSplit": null
+  },
+  {
+   "name": "을지대학교(의정부캠퍼스)",
+   "region": "경기도",
+   "kind": "일반대",
+   "found": "사립",
+   "year": "2026",
+   "fee": 9247500,
+   "feeGrade": "exact",
+   "campusSplit": null
+  },
+  {
+   "name": "이화여자대학교(본교) 학부",
+   "region": "서울특별시",
+   "kind": "일반대",
+   "found": "사립",
+   "year": "2026",
+   "fee": 9311388,
+   "feeGrade": "exact",
+   "campusSplit": null
+  },
+  {
+   "name": "인덕대학교(본교)",
+   "region": "서울특별시",
+   "kind": "전문대",
+   "found": "사립",
+   "year": "2026",
+   "fee": 7170129,
+   "feeGrade": "exact",
+   "campusSplit": null
+  },
+  {
+   "name": "인제대학교(본교) 학부",
+   "region": "경상남도",
+   "kind": "일반대",
+   "found": "사립",
+   "year": "2026",
+   "fee": 7926630,
+   "feeGrade": "exact",
+   "campusSplit": null
+  },
+  {
+   "name": "인천가톨릭대학교(본교) 학부",
+   "region": "인천광역시",
+   "kind": "일반대",
+   "found": "사립",
+   "year": "2026",
+   "fee": 8843482,
+   "feeGrade": "exact",
+   "campusSplit": null
+  },
+  {
+   "name": "인천대학교(본교) 학부",
+   "region": "인천광역시",
+   "kind": "일반대",
+   "found": "국립",
+   "year": "2026",
+   "fee": 4650415,
+   "feeGrade": "exact",
+   "campusSplit": null
+  },
+  {
+   "name": "인하공업전문대학(본교)",
+   "region": "인천광역시",
+   "kind": "전문대",
+   "found": "사립",
+   "year": "2026",
+   "fee": 7318815,
+   "feeGrade": "exact",
+   "campusSplit": null
+  },
+  {
+   "name": "인하대학교(본교) 학부",
+   "region": "인천광역시",
+   "kind": "일반대",
+   "found": "사립",
+   "year": "2026",
+   "fee": 8490348,
+   "feeGrade": "exact",
+   "campusSplit": null
+  },
+  {
+   "name": "장로회신학대학교(본교) 학부",
+   "region": "서울특별시",
+   "kind": "일반대",
+   "found": "사립",
+   "year": "2026",
+   "fee": 7308300,
+   "feeGrade": "exact",
+   "campusSplit": null
+  },
+  {
+   "name": "장안대학교(본교)",
+   "region": "경기도",
+   "kind": "전문대",
+   "found": "사립",
+   "year": "2026",
+   "fee": 6672507,
+   "feeGrade": "exact",
+   "campusSplit": null
+  },
+  {
+   "name": "재능대학교(본교)",
+   "region": "인천광역시",
+   "kind": "전문대",
+   "found": "사립",
+   "year": "2026",
+   "fee": 7199292,
+   "feeGrade": "exact",
+   "campusSplit": null
+  },
+  {
+   "name": "전남과학대학교(본교)",
+   "region": "전라남도",
+   "kind": "전문대",
+   "found": "사립",
+   "year": "2026",
+   "fee": 5493549,
+   "feeGrade": "exact",
+   "campusSplit": null
+  },
+  {
+   "name": "전남대학교(본교) 학부",
+   "region": "광주광역시",
+   "kind": "일반대",
+   "found": "국립",
+   "year": "2026",
+   "fee": 4198426,
+   "feeGrade": "exact",
+   "campusSplit": null
+  },
+  {
+   "name": "전남도립대학교(제2캠퍼스)",
+   "region": "전라남도",
+   "kind": "전문대",
+   "found": "공립",
+   "year": "2026",
+   "fee": 1962652,
+   "feeGrade": "exact",
+   "campusSplit": null
+  },
+  {
+   "name": "전북과학대학교(본교)",
+   "region": "전라북도",
+   "kind": "전문대",
+   "found": "사립",
+   "year": "2026",
+   "fee": 5403179,
+   "feeGrade": "exact",
+   "campusSplit": null
+  },
+  {
+   "name": "전북대학교(본교) 학부",
+   "region": "전라북도",
+   "kind": "일반대",
+   "found": "국립",
+   "year": "2026",
+   "fee": 4461484,
+   "feeGrade": "exact",
+   "campusSplit": null
+  },
+  {
+   "name": "전주교육대학교(본교) 학부",
+   "region": "전라북도",
+   "kind": "일반대",
+   "found": "국립",
+   "year": "2026",
+   "fee": 3646000,
+   "feeGrade": "exact",
+   "campusSplit": null
+  },
+  {
+   "name": "전주기전대학(본교)",
+   "region": "전라북도",
+   "kind": "전문대",
+   "found": "사립",
+   "year": "2026",
+   "fee": 6800000,
+   "feeGrade": "exact",
+   "campusSplit": null
+  },
+  {
+   "name": "전주대학교(본교) 학부",
+   "region": "전라북도",
+   "kind": "일반대",
+   "found": "사립",
+   "year": "2026",
+   "fee": 7543384,
+   "feeGrade": "exact",
+   "campusSplit": null
+  },
+  {
+   "name": "전주비전대학교(본교)",
+   "region": "전라북도",
+   "kind": "전문대",
+   "found": "사립",
+   "year": "2026",
+   "fee": 6728959,
+   "feeGrade": "exact",
+   "campusSplit": null
+  },
+  {
+   "name": "정화예술대학교",
+   "region": "서울특별시",
+   "kind": "전문대",
+   "found": "사립",
+   "year": "2026",
+   "fee": null,
+   "feeGrade": "none",
+   "campusSplit": null
+  },
+  {
+   "name": "제주관광대학교(본교)",
+   "region": "제주도",
+   "kind": "전문대",
+   "found": "사립",
+   "year": "2026",
+   "fee": 5475139,
+   "feeGrade": "exact",
+   "campusSplit": null
+  },
+  {
+   "name": "제주대학교(본교) 학부",
+   "region": "제주도",
+   "kind": "일반대",
+   "found": "국립",
+   "year": "2026",
+   "fee": 4060631,
+   "feeGrade": "exact",
+   "campusSplit": null
+  },
+  {
+   "name": "제주한라대학교(본교)",
+   "region": "제주도",
+   "kind": "전문대",
+   "found": "사립",
+   "year": "2026",
+   "fee": 5618737,
+   "feeGrade": "exact",
+   "campusSplit": null
+  },
+  {
+   "name": "조선간호대학교(본교)",
+   "region": "광주광역시",
+   "kind": "전문대",
+   "found": "사립",
+   "year": "2026",
+   "fee": 5477557,
+   "feeGrade": "exact",
+   "campusSplit": null
+  },
+  {
+   "name": "조선대학교(본교) 학부",
+   "region": "광주광역시",
+   "kind": "일반대",
+   "found": "사립",
+   "year": "2026",
+   "fee": 7718958,
+   "feeGrade": "exact",
+   "campusSplit": null
+  },
+  {
+   "name": "조선이공대학교(본교)",
+   "region": "광주광역시",
+   "kind": "전문대",
+   "found": "사립",
+   "year": "2026",
+   "fee": 5951378,
+   "feeGrade": "exact",
+   "campusSplit": null
+  },
+  {
+   "name": "중부대학교(본교) 학부",
+   "region": "충청남도",
+   "kind": "일반대",
+   "found": "사립",
+   "year": "2026",
+   "fee": 7846833,
+   "feeGrade": "exact",
+   "campusSplit": null
+  },
+  {
+   "name": "중앙대학교 다빈치캠퍼스 학부",
+   "region": "경기도",
+   "kind": "일반대",
+   "found": "사립",
+   "year": "2026",
+   "fee": null,
+   "feeGrade": "none",
+   "campusSplit": null
+  },
+  {
+   "name": "중앙대학교 서울캠퍼스 학부",
+   "region": "서울특별시",
+   "kind": "일반대",
+   "found": "사립",
+   "year": "2026",
+   "fee": null,
+   "feeGrade": "none",
+   "campusSplit": null
+  },
+  {
+   "name": "중앙승가대학교(본교) 학부",
+   "region": "경기도",
+   "kind": "일반대",
+   "found": "사립",
+   "year": "2026",
+   "fee": 1820000,
+   "feeGrade": "exact",
+   "campusSplit": null
+  },
+  {
+   "name": "중원대학교(본교) 학부",
+   "region": "충청북도",
+   "kind": "일반대",
+   "found": "사립",
+   "year": "2026",
+   "fee": 7659700,
+   "feeGrade": "exact",
+   "campusSplit": null
+  },
+  {
+   "name": "진주교육대학교(본교) 학부",
+   "region": "경상남도",
+   "kind": "일반대",
+   "found": "국립",
+   "year": "2026",
+   "fee": 3778500,
+   "feeGrade": "exact",
+   "campusSplit": null
+  },
+  {
+   "name": "진주보건대학교(본교)",
+   "region": "경상남도",
+   "kind": "전문대",
+   "found": "사립",
+   "year": "2026",
+   "fee": 6726580,
+   "feeGrade": "exact",
+   "campusSplit": null
+  },
+  {
+   "name": "차의과학대학교(본교)학부",
+   "region": "경기도",
+   "kind": "일반대",
+   "found": "사립",
+   "year": "2026",
+   "fee": 7762597,
+   "feeGrade": "exact",
+   "campusSplit": null
+  },
+  {
+   "name": "창신대학교(본교)",
+   "region": "경상남도",
+   "kind": "일반대",
+   "found": "사립",
+   "year": "2026",
+   "fee": 6964561,
+   "feeGrade": "exact",
+   "campusSplit": null
+  },
+  {
+   "name": "창원문성대학교(본교)",
+   "region": "경상남도",
+   "kind": "전문대",
+   "found": "사립",
+   "year": "2026",
+   "fee": 6502184,
+   "feeGrade": "exact",
+   "campusSplit": null
+  },
+  {
+   "name": "청강문화산업대학교(본교)",
+   "region": "경기도",
+   "kind": "전문대",
+   "found": "사립",
+   "year": "2026",
+   "fee": 8073243,
+   "feeGrade": "exact",
+   "campusSplit": null
+  },
+  {
+   "name": "청암대학교",
+   "region": "전라남도",
+   "kind": "전문대",
+   "found": "사립",
+   "year": "2026",
+   "fee": 6217559,
+   "feeGrade": "exact",
+   "campusSplit": null
+  },
+  {
+   "name": "청운대학교(본교) 학부",
+   "region": "충청남도",
+   "kind": "일반대",
+   "found": "사립",
+   "year": "2026",
+   "fee": 8000799,
+   "feeGrade": "exact",
+   "campusSplit": null
+  },
+  {
+   "name": "청주교육대학교(본교) 학부",
+   "region": "충청북도",
+   "kind": "일반대",
+   "found": "국립",
+   "year": "2026",
+   "fee": 3714000,
+   "feeGrade": "exact",
+   "campusSplit": null
+  },
+  {
+   "name": "청주대학교(본교) 학부",
+   "region": "충청북도",
+   "kind": "일반대",
+   "found": "사립",
+   "year": "2026",
+   "fee": 8319491,
+   "feeGrade": "exact",
+   "campusSplit": null
+  },
+  {
+   "name": "초당대학교(본교) 학부",
+   "region": "전라남도",
+   "kind": "일반대",
+   "found": "사립",
+   "year": "2026",
+   "fee": 7231632,
+   "feeGrade": "exact",
+   "campusSplit": null
+  },
+  {
+   "name": "총신대학교(본교) 학부",
+   "region": "서울특별시",
+   "kind": "일반대",
+   "found": "사립",
+   "year": "2026",
+   "fee": 7556237,
+   "feeGrade": "exact",
+   "campusSplit": null
+  },
+  {
+   "name": "추계예술대학교(본교) 학부",
+   "region": "서울특별시",
+   "kind": "일반대",
+   "found": "사립",
+   "year": "2026",
+   "fee": 9898886,
+   "feeGrade": "exact",
+   "campusSplit": null
+  },
+  {
+   "name": "춘천교육대학교(본교) 학부",
+   "region": "강원도",
+   "kind": "일반대",
+   "found": "국립",
+   "year": "2026",
+   "fee": 3601590,
+   "feeGrade": "exact",
+   "campusSplit": null
+  },
+  {
+   "name": "춘해보건대학교(본교)",
+   "region": "울산광역시",
+   "kind": "전문대",
+   "found": "사립",
+   "year": "2026",
+   "fee": 6647075,
+   "feeGrade": "exact",
+   "campusSplit": null
+  },
+  {
+   "name": "충남대학교(본교) 학부",
+   "region": "대전광역시",
+   "kind": "일반대",
+   "found": "국립",
+   "year": "2026",
+   "fee": 4401836,
+   "feeGrade": "exact",
+   "campusSplit": null
+  },
+  {
+   "name": "충남도립대학교(본교)",
+   "region": "충청남도",
+   "kind": "전문대",
+   "found": "공립",
+   "year": "2026",
+   "fee": 2460814,
+   "feeGrade": "exact",
+   "campusSplit": null
+  },
+  {
+   "name": "충북대학교(본교) 학부",
+   "region": "충청북도",
+   "kind": "일반대",
+   "found": "국립",
+   "year": "2026",
+   "fee": 4305681,
+   "feeGrade": "exact",
+   "campusSplit": null
+  },
+  {
+   "name": "충북도립대학교(본교)",
+   "region": "충청북도",
+   "kind": "전문대",
+   "found": "공립",
+   "year": "2026",
+   "fee": 1873070,
+   "feeGrade": "exact",
+   "campusSplit": null
+  },
+  {
+   "name": "충북보건과학대학교(본교)",
+   "region": "충청북도",
+   "kind": "전문대",
+   "found": "사립",
+   "year": "2026",
+   "fee": 6723179,
+   "feeGrade": "exact",
+   "campusSplit": null
+  },
+  {
+   "name": "충청대학교(본교)",
+   "region": "충청북도",
+   "kind": "전문대",
+   "found": "사립",
+   "year": "2026",
+   "fee": 6323806,
+   "feeGrade": "exact",
+   "campusSplit": null
+  },
+  {
+   "name": "칼빈대학교(본교) 학부",
+   "region": "경기도",
+   "kind": "일반대",
+   "found": "사립",
+   "year": "2026",
+   "fee": 8030000,
+   "feeGrade": "exact",
+   "campusSplit": null
+  },
+  {
+   "name": "태재대학교(본교) 학부",
+   "region": "서울특별시",
+   "kind": "일반대",
+   "found": "사립",
+   "year": "2026",
+   "fee": null,
+   "feeGrade": "none",
+   "campusSplit": null
+  },
+  {
+   "name": "평택대학교(본교) 학부",
+   "region": "경기도",
+   "kind": "일반대",
+   "found": "사립",
+   "year": "2026",
+   "fee": 8198774,
+   "feeGrade": "exact",
+   "campusSplit": null
+  },
+  {
+   "name": "포항공과대학교(본교) 학부",
+   "region": "경상북도",
+   "kind": "일반대",
+   "found": "사립",
+   "year": "2026",
+   "fee": 5613500,
+   "feeGrade": "exact",
+   "campusSplit": null
+  },
+  {
+   "name": "포항대학교(본교)",
+   "region": "경상북도",
+   "kind": "전문대",
+   "found": "사립",
+   "year": "2026",
+   "fee": 6575610,
+   "feeGrade": "exact",
+   "campusSplit": null
+  },
+  {
+   "name": "한경국립대학교(안성캠퍼스) 학부",
+   "region": "경기도",
+   "kind": "일반대",
+   "found": "국립",
+   "year": "2026",
+   "fee": 4021297,
+   "feeGrade": "exact",
+   "campusSplit": null
+  },
+  {
+   "name": "한경국립대학교(평택캠퍼스) 학부",
+   "region": "경기도",
+   "kind": "일반대",
+   "found": "국립",
+   "year": "2026",
+   "fee": 4021297,
+   "feeGrade": "exact",
+   "campusSplit": null
+  },
+  {
+   "name": "한국골프과학기술대학교(본교) 학부",
+   "region": "강원도",
+   "kind": "전문대",
+   "found": "사립",
+   "year": "2026",
+   "fee": 7966042,
+   "feeGrade": "exact",
+   "campusSplit": null
+  },
+  {
+   "name": "한국공학대학교(본교) 학부",
+   "region": "경기도",
+   "kind": "일반대",
+   "found": "사립",
+   "year": "2026",
+   "fee": 9449101,
+   "feeGrade": "exact",
+   "campusSplit": null
+  },
+  {
+   "name": "한국과학기술원 학부",
+   "region": "대전광역시",
+   "kind": "일반대",
+   "found": "국립",
+   "year": "2026",
+   "fee": 6866000,
+   "feeGrade": "exact",
+   "campusSplit": null
+  },
+  {
+   "name": "한국관광대학교(본교)",
+   "region": "경기도",
+   "kind": "전문대",
+   "found": "사립",
+   "year": "2026",
+   "fee": 6832010,
+   "feeGrade": "exact",
+   "campusSplit": null
+  },
+  {
+   "name": "한국교원대학교(본교) 학부",
+   "region": "충청북도",
+   "kind": "일반대",
+   "found": "국립",
+   "year": "2026",
+   "fee": 3456069,
+   "feeGrade": "exact",
+   "campusSplit": null
+  },
+  {
+   "name": "한국기술교육대학교(본교) 학부",
+   "region": "충청남도",
+   "kind": "일반대",
+   "found": "사립",
+   "year": "2026",
+   "fee": 4475287,
+   "feeGrade": "exact",
+   "campusSplit": null
+  },
+  {
+   "name": "한국농수산대학(본교) 학부",
+   "region": "전라북도",
+   "kind": "전문대",
+   "found": "국립",
+   "year": "2026",
+   "fee": null,
+   "feeGrade": "none",
+   "campusSplit": null
+  },
+  {
+   "name": "한국방송통신대학교(본교) 학부",
+   "region": "서울특별시",
+   "kind": "일반대",
+   "found": "국립",
+   "year": "2026",
+   "fee": 762436,
+   "feeGrade": "exact",
+   "campusSplit": null
+  },
+  {
+   "name": "한국복지사이버대학교(본교) 학부",
+   "region": "경상북도",
+   "kind": "전문대",
+   "found": "사립",
+   "year": "2026",
+   "fee": 2196000,
+   "feeGrade": "exact",
+   "campusSplit": null
+  },
+  {
+   "name": "한국성서대학교(본교) 학부",
+   "region": "서울특별시",
+   "kind": "일반대",
+   "found": "사립",
+   "year": "2026",
+   "fee": 7506665,
+   "feeGrade": "exact",
+   "campusSplit": null
+  },
+  {
+   "name": "한국승강기대학교(본교)",
+   "region": "경상남도",
+   "kind": "전문대",
+   "found": "사립",
+   "year": "2026",
+   "fee": 7221136,
+   "feeGrade": "exact",
+   "campusSplit": null
+  },
+  {
+   "name": "한국에너지공과대학교(본교) 학부",
+   "region": "전라남도",
+   "kind": "일반대",
+   "found": "국립",
+   "year": "2026",
+   "fee": 9000000,
+   "feeGrade": "exact",
+   "campusSplit": null
+  },
+  {
+   "name": "한국열린사이버대학교 (본교) 학부",
+   "region": "서울특별시",
+   "kind": "일반대",
+   "found": "사립",
+   "year": "2026",
+   "fee": 2423088,
+   "feeGrade": "exact",
+   "campusSplit": null
+  },
+  {
+   "name": "한국영상대학교",
+   "region": "세종시",
+   "kind": "전문대",
+   "found": "사립",
+   "year": "2026",
+   "fee": 6918277,
+   "feeGrade": "exact",
+   "campusSplit": null
+  },
+  {
+   "name": "한국예술종합학교 학부",
+   "region": "서울특별시",
+   "kind": "일반대",
+   "found": "국립",
+   "year": "2026",
+   "fee": 4806455,
+   "feeGrade": "exact",
+   "campusSplit": null
+  },
+  {
+   "name": "한국외국어대학교(글로벌) 학부",
+   "region": "경기도",
+   "kind": "일반대",
+   "found": "사립",
+   "year": "2026",
+   "fee": 7791804,
+   "feeGrade": "exact",
+   "campusSplit": null
+  },
+  {
+   "name": "한국외국어대학교(서울) 학부",
+   "region": "서울특별시",
+   "kind": "일반대",
+   "found": "사립",
+   "year": "2026",
+   "fee": 7791804,
+   "feeGrade": "exact",
+   "campusSplit": null
+  },
+  {
+   "name": "한국전통문화대학교(본교)학부",
+   "region": "충청남도",
+   "kind": "일반대",
+   "found": "국립",
+   "year": "2026",
+   "fee": 3483232,
+   "feeGrade": "exact",
+   "campusSplit": null
+  },
+  {
+   "name": "한국체육대학교(본교) 학부",
+   "region": "서울특별시",
+   "kind": "일반대",
+   "found": "국립",
+   "year": "2026",
+   "fee": 3860075,
+   "feeGrade": "exact",
+   "campusSplit": null
+  },
+  {
+   "name": "한국폴리텍대학 광주캠퍼스",
+   "region": "광주광역시",
+   "kind": "전문대",
+   "found": "사립",
+   "year": "2026",
+   "fee": null,
+   "feeGrade": "none",
+   "campusSplit": null
+  },
+  {
+   "name": "한국폴리텍대학 남인천캠퍼스",
+   "region": "인천광역시",
+   "kind": "전문대",
+   "found": "사립",
+   "year": "2026",
+   "fee": null,
+   "feeGrade": "none",
+   "campusSplit": null
+  },
+  {
+   "name": "한국폴리텍대학 로봇캠퍼스",
+   "region": "경상북도",
+   "kind": "전문대",
+   "found": "사립",
+   "year": "2026",
+   "fee": null,
+   "feeGrade": "none",
+   "campusSplit": null
+  },
+  {
+   "name": "한국폴리텍대학 바이오캠퍼스",
+   "region": "충청남도",
+   "kind": "전문대",
+   "found": "사립",
+   "year": "2026",
+   "fee": null,
+   "feeGrade": "none",
+   "campusSplit": null
+  },
+  {
+   "name": "한국폴리텍대학 반도체융합캠퍼스",
+   "region": "경기도",
+   "kind": "전문대",
+   "found": "사립",
+   "year": "2026",
+   "fee": null,
+   "feeGrade": "none",
+   "campusSplit": null
+  },
+  {
+   "name": "한국폴리텍대학 서울정수캠퍼스",
+   "region": "서울특별시",
+   "kind": "전문대",
+   "found": "사립",
+   "year": "2026",
+   "fee": null,
+   "feeGrade": "none",
+   "campusSplit": null
+  },
+  {
+   "name": "한국폴리텍대학 성남캠퍼스",
+   "region": "경기도",
+   "kind": "전문대",
+   "found": "사립",
+   "year": "2026",
+   "fee": null,
+   "feeGrade": "none",
+   "campusSplit": null
+  },
+  {
+   "name": "한국폴리텍대학 아산캠퍼스",
+   "region": "충청남도",
+   "kind": "전문대",
+   "found": "사립",
+   "year": "2026",
+   "fee": null,
+   "feeGrade": "none",
+   "campusSplit": null
+  },
+  {
+   "name": "한국폴리텍대학 영남융합기술캠퍼스",
+   "region": "대구광역시",
+   "kind": "전문대",
+   "found": "사립",
+   "year": "2026",
+   "fee": null,
+   "feeGrade": "none",
+   "campusSplit": null
+  },
+  {
+   "name": "한국폴리텍대학 영주캠퍼스",
+   "region": "경상북도",
+   "kind": "전문대",
+   "found": "사립",
+   "year": "2026",
+   "fee": null,
+   "feeGrade": "none",
+   "campusSplit": null
+  },
+  {
+   "name": "한국폴리텍대학 울산캠퍼스",
+   "region": "울산광역시",
+   "kind": "전문대",
+   "found": "사립",
+   "year": "2026",
+   "fee": null,
+   "feeGrade": "none",
+   "campusSplit": null
+  },
+  {
+   "name": "한국폴리텍대학 원주캠퍼스",
+   "region": "강원도",
+   "kind": "전문대",
+   "found": "사립",
+   "year": "2026",
+   "fee": null,
+   "feeGrade": "none",
+   "campusSplit": null
+  },
+  {
+   "name": "한국폴리텍대학 인천캠퍼스",
+   "region": "인천광역시",
+   "kind": "전문대",
+   "found": "사립",
+   "year": "2026",
+   "fee": null,
+   "feeGrade": "none",
+   "campusSplit": null
+  },
+  {
+   "name": "한국폴리텍대학 창원캠퍼스",
+   "region": "경상남도",
+   "kind": "전문대",
+   "found": "사립",
+   "year": "2026",
+   "fee": null,
+   "feeGrade": "none",
+   "campusSplit": null
+  },
+  {
+   "name": "한국폴리텍대학 청주캠퍼스",
+   "region": "충청북도",
+   "kind": "전문대",
+   "found": "사립",
+   "year": "2026",
+   "fee": null,
+   "feeGrade": "none",
+   "campusSplit": null
+  },
+  {
+   "name": "한국폴리텍대학 춘천캠퍼스",
+   "region": "강원도",
+   "kind": "전문대",
+   "found": "사립",
+   "year": "2026",
+   "fee": null,
+   "feeGrade": "none",
+   "campusSplit": null
+  },
+  {
+   "name": "한국폴리텍대학 충남캠퍼스",
+   "region": "충청남도",
+   "kind": "전문대",
+   "found": "사립",
+   "year": "2026",
+   "fee": null,
+   "feeGrade": "none",
+   "campusSplit": null
+  },
+  {
+   "name": "한국폴리텍대학 항공캠퍼스",
+   "region": "경상남도",
+   "kind": "전문대",
+   "found": "사립",
+   "year": "2026",
+   "fee": null,
+   "feeGrade": "none",
+   "campusSplit": null
+  },
+  {
+   "name": "한국폴리텍대학대전캠퍼스",
+   "region": "대전광역시",
+   "kind": "전문대",
+   "found": "사립",
+   "year": "2026",
+   "fee": null,
+   "feeGrade": "none",
+   "campusSplit": null
+  },
+  {
+   "name": "한국폴리텍대학제주캠퍼스",
+   "region": "제주도",
+   "kind": "전문대",
+   "found": "사립",
+   "year": "2026",
+   "fee": null,
+   "feeGrade": "none",
+   "campusSplit": null
+  },
+  {
+   "name": "한국폴리텍Ⅰ서울강서대학",
+   "region": "서울특별시",
+   "kind": "전문대",
+   "found": "사립",
+   "year": "2026",
+   "fee": null,
+   "feeGrade": "none",
+   "campusSplit": null
+  },
+  {
+   "name": "한국폴리텍Ⅲ대학 강릉캠퍼스",
+   "region": "강원도",
+   "kind": "전문대",
+   "found": "사립",
+   "year": "2026",
+   "fee": null,
+   "feeGrade": "none",
+   "campusSplit": null
+  },
+  {
+   "name": "한국폴리텍Ⅴ대학 익산캠퍼스",
+   "region": "전라북도",
+   "kind": "전문대",
+   "found": "사립",
+   "year": "2026",
+   "fee": null,
+   "feeGrade": "none",
+   "campusSplit": null
+  },
+  {
+   "name": "한국폴리텍Ⅴ대학 전남캠퍼스",
+   "region": "전라남도",
+   "kind": "전문대",
+   "found": "사립",
+   "year": "2026",
+   "fee": null,
+   "feeGrade": "none",
+   "campusSplit": null
+  },
+  {
+   "name": "한국폴리텍Ⅴ대학 전북캠퍼스",
+   "region": "전라북도",
+   "kind": "전문대",
+   "found": "사립",
+   "year": "2026",
+   "fee": null,
+   "feeGrade": "none",
+   "campusSplit": null
+  },
+  {
+   "name": "한국폴리텍Ⅵ대학 구미캠퍼스",
+   "region": "경상북도",
+   "kind": "전문대",
+   "found": "사립",
+   "year": "2026",
+   "fee": null,
+   "feeGrade": "none",
+   "campusSplit": null
+  },
+  {
+   "name": "한국폴리텍Ⅵ대학 대구캠퍼스",
+   "region": "대구광역시",
+   "kind": "전문대",
+   "found": "사립",
+   "year": "2026",
+   "fee": null,
+   "feeGrade": "none",
+   "campusSplit": null
+  },
+  {
+   "name": "한국폴리텍Ⅶ부산캠퍼스",
+   "region": "부산광역시",
+   "kind": "전문대",
+   "found": "사립",
+   "year": "2026",
+   "fee": null,
+   "feeGrade": "none",
+   "campusSplit": null
+  },
+  {
+   "name": "한국항공대학교(본교) 학부",
+   "region": "경기도",
+   "kind": "일반대",
+   "found": "사립",
+   "year": "2026",
+   "fee": 9210265,
+   "feeGrade": "exact",
+   "campusSplit": null
+  },
+  {
+   "name": "한남대학교(본교) 학부",
+   "region": "대전광역시",
+   "kind": "일반대",
+   "found": "사립",
+   "year": "2026",
+   "fee": 7869677,
+   "feeGrade": "exact",
+   "campusSplit": null
+  },
+  {
+   "name": "한동대학교(본교) 학부",
+   "region": "경상북도",
+   "kind": "일반대",
+   "found": "사립",
+   "year": "2026",
+   "fee": 7413038,
+   "feeGrade": "exact",
+   "campusSplit": null
+  },
+  {
+   "name": "한라대학교(본교) 학부",
+   "region": "강원도",
+   "kind": "일반대",
+   "found": "사립",
+   "year": "2026",
+   "fee": 7767469,
+   "feeGrade": "exact",
+   "campusSplit": null
+  },
+  {
+   "name": "한림대학교(본교) 학부",
+   "region": "강원도",
+   "kind": "일반대",
+   "found": "사립",
+   "year": "2026",
+   "fee": 8226650,
+   "feeGrade": "exact",
+   "campusSplit": null
+  },
+  {
+   "name": "한림성심대학교(본교)",
+   "region": "강원도",
+   "kind": "전문대",
+   "found": "사립",
+   "year": "2026",
+   "fee": 6250016,
+   "feeGrade": "exact",
+   "campusSplit": null
+  },
+  {
+   "name": "한서대학교(본교) 학부",
+   "region": "충청남도",
+   "kind": "일반대",
+   "found": "사립",
+   "year": "2026",
+   "fee": 8525200,
+   "feeGrade": "exact",
+   "campusSplit": null
+  },
+  {
+   "name": "한성대학교(본교) 학부",
+   "region": "서울특별시",
+   "kind": "일반대",
+   "found": "사립",
+   "year": "2026",
+   "fee": 8033733,
+   "feeGrade": "exact",
+   "campusSplit": null
+  },
+  {
+   "name": "한세대학교(본교) 학부",
+   "region": "경기도",
+   "kind": "일반대",
+   "found": "사립",
+   "year": "2026",
+   "fee": 8859564,
+   "feeGrade": "exact",
+   "campusSplit": null
+  },
+  {
+   "name": "한신대학교(본교) 학부",
+   "region": "경기도",
+   "kind": "일반대",
+   "found": "사립",
+   "year": "2026",
+   "fee": 7892204,
+   "feeGrade": "exact",
+   "campusSplit": null
+  },
+  {
+   "name": "한양대학교(본교) 학부",
+   "region": "서울특별시",
+   "kind": "일반대",
+   "found": "사립",
+   "year": "2026",
+   "fee": 9286647,
+   "feeGrade": "exact",
+   "campusSplit": null
+  },
+  {
+   "name": "한양대학교(에리카캠퍼스) 학부",
+   "region": "경기도",
+   "kind": "일반대",
+   "found": "사립",
+   "year": "2026",
+   "fee": 9286647,
+   "feeGrade": "exact",
+   "campusSplit": null
+  },
+  {
+   "name": "한양사이버대학교(본교) 학부",
+   "region": "서울특별시",
+   "kind": "일반대",
+   "found": "사립",
+   "year": "2026",
+   "fee": 2936765,
+   "feeGrade": "exact",
+   "campusSplit": null
+  },
+  {
+   "name": "한양여자대학교(본교)",
+   "region": "서울특별시",
+   "kind": "전문대",
+   "found": "사립",
+   "year": "2026",
+   "fee": 6761049,
+   "feeGrade": "exact",
+   "campusSplit": null
+  },
+  {
+   "name": "한영대학교(본교)",
+   "region": "전라남도",
+   "kind": "전문대",
+   "found": "사립",
+   "year": "2026",
+   "fee": 6185299,
+   "feeGrade": "exact",
+   "campusSplit": null
+  },
+  {
+   "name": "협성대학교(본교) 학부",
+   "region": "경기도",
+   "kind": "일반대",
+   "found": "사립",
+   "year": "2026",
+   "fee": 8135253,
+   "feeGrade": "exact",
+   "campusSplit": null
+  },
+  {
+   "name": "혜전대학교(본교)",
+   "region": "충청남도",
+   "kind": "전문대",
+   "found": "사립",
+   "year": "2026",
+   "fee": 6323583,
+   "feeGrade": "exact",
+   "campusSplit": null
+  },
+  {
+   "name": "호남대학교(본교) 학부",
+   "region": "광주광역시",
+   "kind": "일반대",
+   "found": "사립",
+   "year": "2026",
+   "fee": 6788794,
+   "feeGrade": "exact",
+   "campusSplit": null
+  },
+  {
+   "name": "호남신학대학교(본교) 학부",
+   "region": "광주광역시",
+   "kind": "일반대",
+   "found": "사립",
+   "year": "2026",
+   "fee": 6973030,
+   "feeGrade": "exact",
+   "campusSplit": null
+  },
+  {
+   "name": "호산대학교",
+   "region": "경상북도",
+   "kind": "전문대",
+   "found": "사립",
+   "year": "2026",
+   "fee": 6196261,
+   "feeGrade": "exact",
+   "campusSplit": null
+  },
+  {
+   "name": "호서대학교(본교) 학부",
+   "region": "충청남도",
+   "kind": "일반대",
+   "found": "사립",
+   "year": "2026",
+   "fee": 8412408,
+   "feeGrade": "exact",
+   "campusSplit": null
+  },
+  {
+   "name": "호원대학교(본교) 학부",
+   "region": "전라북도",
+   "kind": "일반대",
+   "found": "사립",
+   "year": "2026",
+   "fee": 7501239,
+   "feeGrade": "exact",
+   "campusSplit": null
+  },
+  {
+   "name": "홍익대학교 세종캠퍼스 학부",
+   "region": "서울특별시",
+   "kind": "일반대",
+   "found": "사립",
+   "year": "2026",
+   "fee": null,
+   "feeGrade": "none",
+   "campusSplit": null
+  },
+  {
+   "name": "홍익대학교(본교) 학부",
+   "region": "서울특별시",
+   "kind": "일반대",
+   "found": "사립",
+   "year": "2026",
+   "fee": 9152337,
+   "feeGrade": "exact",
+   "campusSplit": null
+  },
+  {
+   "name": "화신사이버대학교(본교) 학부",
+   "region": "부산광역시",
+   "kind": "일반대",
+   "found": "사립",
+   "year": "2026",
+   "fee": 2515636,
+   "feeGrade": "exact",
+   "campusSplit": null
+  },
+  {
+   "name": "ICT폴리텍대학(본교)",
+   "region": "경기도",
+   "kind": "전문대",
+   "found": "사립",
+   "year": "2026",
+   "fee": 2500000,
+   "feeGrade": "exact",
+   "campusSplit": null
+  }
+ ]
+}
