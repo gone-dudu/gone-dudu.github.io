@@ -1,0 +1,55 @@
+{
+  "_": "혼인백만(혼인 세액공제) 기준표 — apps/marriage-credit/src/main/java/baekman/mark/data/RuleTable.kt 의 parse() 가 읽는다.",
+  "_출처": "법제처 law.go.kr XML API 본문 — 조세특례제한법 §92(50만원·생애 1회·2026-12-31) · 소득세법 §47①(근로소득공제) §50(기본공제) §55①(세율) §59①②(근로소득세액공제) · 국세기본법 §45의2(경정청구 5년)",
+  "_주의1": "creditPerPerson 은 «1인당»이다. 부부가 각자 받으므로 둘이면 100만원이 상한이고, 각자의 산출세액을 넘지 못한다.",
+  "_주의2": "국민연금·건강보험료 공제는 고시 정본을 못 받아 «넣지 않았다». 그래서 앱이 남은 세금을 실제보다 크게 잡는다 — 「다 못 받는다」 판정은 안전하고 「다 받는다」는 상한이다. 고시를 확보하면 그때 넣어라.",
+  "_주의3": "Bracket 은 「from 이상 구간에서 base + (총급여-from) × percent%」다. taxRates 의 base 는 누진공제가 아니라 «그 구간까지의 누적 세액»이다.",
+  "_연도": "세율·공제는 해마다 바뀐다. 개정되면 이 파일만 고치면 된다 — 앱을 다시 올릴 필요가 없다(골든 룰 7).",
+
+  "version": 1,
+  "updatedAt": "2026-09-24",
+
+  "creditPerPerson": 500000,
+  "registerBy": "2026-12-31",
+  "registerFrom": "2024-01-01",
+  "basicDeduction": 1500000,
+
+  "earnedDeduction": [
+    { "from": 0,         "base": 0,        "percent": 70 },
+    { "from": 5000000,   "base": 3500000,  "percent": 40 },
+    { "from": 15000000,  "base": 7500000,  "percent": 15 },
+    { "from": 45000000,  "base": 12000000, "percent": 5 },
+    { "from": 100000000, "base": 14750000, "percent": 2 }
+  ],
+  "earnedDeductionCap": 20000000,
+
+  "taxRates": [
+    { "from": 0,          "base": 0,         "percent": 6 },
+    { "from": 14000000,   "base": 840000,    "percent": 15 },
+    { "from": 50000000,   "base": 6240000,   "percent": 24 },
+    { "from": 88000000,   "base": 15360000,  "percent": 35 },
+    { "from": 150000000,  "base": 37060000,  "percent": 38 },
+    { "from": 300000000,  "base": 94060000,  "percent": 40 },
+    { "from": 500000000,  "base": 174060000, "percent": 42 },
+    { "from": 1000000000, "base": 384060000, "percent": 45 }
+  ],
+
+  "earnedCredit": [
+    { "from": 0,       "base": 0,      "percent": 55 },
+    { "from": 1300000, "base": 715000, "percent": 30 }
+  ],
+
+  "earnedCreditCaps": [
+    { "from": 0,         "base": 740000, "taperPerMillion": 0,      "floor": 740000 },
+    { "from": 33000000,  "base": 740000, "taperPerMillion": 8000,   "floor": 660000 },
+    { "from": 70000000,  "base": 660000, "taperPerMillion": 500000, "floor": 500000 },
+    { "from": 120000000, "base": 500000, "taperPerMillion": 500000, "floor": 200000 }
+  ],
+
+  "amendYears": 5,
+  "filingDueMonth": 5,
+  "filingDueDay": 31,
+
+  "notice": "",
+  "judging": true
+}

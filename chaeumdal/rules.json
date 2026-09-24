@@ -1,0 +1,47 @@
+{
+  "_": "채움달(청년미래적금) 기준표 — apps/future-savings/src/main/java/chaeumdal/save/data/RuleTable.kt 의 parse() 가 읽는다.",
+  "_출처": "서민금융진흥원 공식 https://fill4young.kinfa.or.kr (2026-09-19 실측) · 2차 모집은 금융위 2026-09-16 발표",
+  "_주의": "기본금리는 여기 없다. 정본이 「취급 금융기관 자율 결정」으로 두므로 앱이 사용자에게 입력받는다. 넣지 마라.",
+  "_차수": "새 차수가 열리면 rounds 에 추가하고 updatedAt 을 오늘로 바꾼다. 앱을 다시 올릴 필요가 없다.",
+
+  "version": 1,
+  "updatedAt": "2026-09-24",
+
+  "monthlyMin": 1000,
+  "monthlyMax": 500000,
+  "monthlyStep": 1000,
+  "termMonths": 36,
+
+  "generalPercent": 6,
+  "generalMonthlyCap": 30000,
+  "preferredPercent": 12,
+  "preferredMonthlyCap": 60000,
+
+  "ageMin": 19,
+  "ageMax": 34,
+  "salaryMax": 75000000,
+  "comprehensiveMax": 63000000,
+  "revenueMax": 300000000,
+  "medianPercent": 200,
+
+  "bonusLowIncome": 0.5,
+  "bonusCounseling": 0.2,
+
+  "creditMinYears": 2,
+  "creditMinTotal": 8000000,
+
+  "rounds": [
+    {
+      "name": "2차",
+      "applyFrom": "2026-10-07",
+      "applyTo": "2026-10-16",
+      "reviewFrom": "2026-10-19",
+      "reviewTo": "2026-11-13",
+      "openFrom": "2026-11-16",
+      "openTo": "2026-11-27"
+    }
+  ],
+
+  "notice": "",
+  "judging": true
+}

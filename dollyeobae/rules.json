@@ -1,0 +1,35 @@
+{
+  "_": "돌려배움(교육비 세액공제) 기준표 — apps/edu-credit/src/main/java/dollyeobae/tax/data/RuleTable.kt 의 parse() 가 읽는다.",
+  "_출처": "국세청 nts.go.kr/.../cntntsId=239024 (공제율·사람별 한도) · 국세상담센터 call.nts.go.kr/.../CTG11910 (교복 50만·현장체험학습 30만)",
+  "_주의1": "personCap 은 다섯 학령이 «전부» 있어야 한다. 하나라도 빠지면 앱이 표를 통째로 버린다 — 빠진 키를 «한도 없음»으로 읽으면 오타 하나에 무한도가 되기 때문이다.",
+  "_주의2": "meal·textbook 은 verified:false 다. 블로그에는 공제 대상으로 나오지만 국세청 두 페이지 어디에도 없었다. 확인되면 true 로 바꿔라.",
+  "_주의3": "lowerElementaryAcademyFromYear 는 초등 1·2학년 예체능 학원비 신설 연도다. 출처가 세제개편 뉴스지 시행령 정본이 아니라 여기 뒀다.",
+
+  "version": 1,
+  "updatedAt": "2026-09-24",
+  "creditPercent": 15,
+
+  "personCap": {
+    "SELF": null,
+    "PRESCHOOL": 3000000,
+    "SCHOOL": 3000000,
+    "UNIVERSITY": 9000000,
+    "DISABLED": null
+  },
+
+  "items": [
+    { "id": "tuition", "label": "수업료·입학금", "kinds": ["SELF", "PRESCHOOL", "SCHOOL", "UNIVERSITY"], "verified": true },
+    { "id": "afterschool", "label": "방과후학교 수업료", "kinds": ["SCHOOL"], "verified": true },
+    { "id": "uniform", "label": "교복구입비", "kinds": ["SCHOOL"], "cap": 500000, "verified": true, "note": "중·고등학생만" },
+    { "id": "fieldtrip", "label": "현장체험학습비", "kinds": ["SCHOOL"], "cap": 300000, "verified": true },
+    { "id": "academy", "label": "학원비(예체능·체육시설)", "kinds": ["PRESCHOOL", "SCHOOL"], "verified": true, "note": "취학전 · 초등 1~2학년" },
+    { "id": "meal", "label": "급식비", "kinds": ["PRESCHOOL", "SCHOOL"], "verified": false },
+    { "id": "textbook", "label": "교과서대", "kinds": ["SCHOOL"], "verified": false },
+    { "id": "special", "label": "장애인 특수교육비", "kinds": ["DISABLED"], "verified": true }
+  ],
+
+  "lowerElementaryAcademyFromYear": 2026,
+
+  "notice": "",
+  "judging": true
+}
