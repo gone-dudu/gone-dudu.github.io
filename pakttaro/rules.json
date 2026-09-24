@@ -1,0 +1,45 @@
+{
+  "version": 1,
+  "updatedAt": "2026-09-24",
+  "enforceFrom": "2027-01-01",
+  "voluntaryFrom": "2026-10-01",
+  "baseHouseholds": 300,
+  "liftHouseholds": 150,
+  "centralHeatHouseholds": 150,
+  "mixedUseHouseholds": 150,
+  "recycleRate": 13.9,
+  "notice": "",
+  "judging": true,
+  "items": [
+    {
+      "id": "milk", "label": "우유팩 (냉장)", "bin": "PLAIN", "verified": true,
+      "hint": "냉장 칸에 있던 우유·주스. 뜯으면 안쪽이 하얗다",
+      "steps": ["남은 내용물을 비운다", "물로 한 번 헹군다", "펼쳐서 눌러 편다", "말린다", "종이팩 전용함에"]
+    },
+    {
+      "id": "sterile", "label": "멸균팩 (상온)", "bin": "STERILE", "verified": true,
+      "hint": "상온에 쌓여 있던 두유·주스. 뜯으면 안쪽이 은색이다",
+      "steps": ["남은 내용물을 비운다", "물로 한 번 헹군다", "펼쳐서 눌러 편다", "말린다", "종이팩 전용함에 (일반팩과 섞여도 된다)"]
+    },
+    {
+      "id": "papercup", "label": "종이컵", "bin": "CUP", "verified": false,
+      "hint": "안쪽이 코팅돼 있다. 폐지가 아니다",
+      "steps": ["내용물을 비운다", "물로 헹군다", "말린다", "종이컵 전용함이 있으면 거기, 없으면 지자체 안내를 따른다"]
+    },
+    {
+      "id": "paper", "label": "골판지·신문·책", "bin": "PAPER", "verified": true,
+      "hint": "🔴 여기에 종이팩을 섞으면 안 된다 — 그게 재활용률을 13.9%로 만든 원인이다",
+      "steps": ["테이프·스티커를 뗀다", "접어서 묶는다", "폐지함에"]
+    },
+    {
+      "id": "noodle", "label": "컵라면 용기 (종이)", "bin": "TRASH", "verified": false,
+      "hint": "기름과 양념이 배어 재활용이 안 된다",
+      "steps": ["내용물을 비운다", "일반 쓰레기로"]
+    },
+    {
+      "id": "coated", "label": "코팅된 종이 (전단·사진)", "bin": "TRASH", "verified": false,
+      "hint": "표면이 반들거리면 폐지가 아니다",
+      "steps": ["일반 쓰레기로"]
+    }
+  ]
+}
