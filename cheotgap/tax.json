@@ -1,0 +1,13 @@
+{
+  "version": 1,
+  "updatedAt": "2026-09-24",
+  "effectiveFrom": "2027-01-01",
+  "fairValueDate": "2026-12-31",
+  "fairValueFixedAt": "2027-01-01",
+  "basicDeduction": 2500000,
+  "taxRate": 20.0,
+  "localTaxRate": 10.0,
+  "deemedExpenseRate": 50.0,
+  "notice": "",
+  "judging": true
+}
