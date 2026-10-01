@@ -17,9 +17,10 @@
         37.546,
         127.1635
       ],
-      "ver": 7,
-      "sha256": "c0cfc97cfe42f363c0a395e5568c66f33d502cfedf0306a02254647f85fc9269",
-      "size": 1103548
+      "buffer": 3000,
+      "ver": 8,
+      "sha256": "9f29d832e28356b0af42405626a262fb0d5d0c57402aca3d07a6c9401b8a50e7",
+      "size": 1314861
     },
     {
       "id": "nowon",
@@ -36,9 +37,10 @@
         37.6982,
         127.1145
       ],
-      "ver": 6,
-      "sha256": "0ace0d18c8b6acefa3799df68d7b2eb590197735ea3ebaf0c3cca8d0de687938",
-      "size": 764990
+      "buffer": 3000,
+      "ver": 7,
+      "sha256": "e245cefa3043e7f85eeee3d5cad8e4e82ffa70aa912f050cbdb8998f5865b977",
+      "size": 1133901
     },
     {
       "id": "yeongdeungpo",
@@ -55,9 +57,10 @@
         37.5583,
         126.9519
       ],
-      "ver": 6,
-      "sha256": "0145198169e8ac6f80b0252b8dc1fc391a0604ed93a4435c3a61c13552f25529",
-      "size": 1233011
+      "buffer": 3000,
+      "ver": 7,
+      "sha256": "f41c5d43e4fafcf9e7fa4dc0eb2e506f5c6f539b12b8a790b80cbdff68d90245",
+      "size": 1789724
     },
     {
       "id": "seocho",
@@ -74,9 +77,10 @@
         37.5279,
         127.0985
       ],
-      "ver": 6,
-      "sha256": "7e351a795912014b6f385f2fd75c6bada075c2c32986d4cec8a1fd53453a5429",
-      "size": 986470
+      "buffer": 3000,
+      "ver": 7,
+      "sha256": "85d6cb140bcc6571e540bf120e24e90fdb26e930b12baa503e618de56cff96cf",
+      "size": 1332143
     },
     {
       "id": "gwangjin",
@@ -93,9 +97,10 @@
         37.5754,
         127.1172
       ],
-      "ver": 6,
-      "sha256": "041659025ee23021f2a0b09006d9874dc487f169656633a777105d19b33af6d0",
-      "size": 764849
+      "buffer": 3000,
+      "ver": 7,
+      "sha256": "963dbe73bb0a8049b1e04a9e6419c1cf3b96500e86935a8e2c5c3f4d7745a9db",
+      "size": 1162659
     },
     {
       "id": "junggu",
@@ -112,9 +117,10 @@
         37.5739,
         127.0288
       ],
-      "ver": 6,
-      "sha256": "f4be981d21a2117eab2605986bcba8e185a64b27b2180df04e9f7bbc0bc514ca",
-      "size": 1134866
+      "buffer": 3000,
+      "ver": 7,
+      "sha256": "9bc2de0fbead93f8a1c318b6b011c5b6a625b3c94a9d73d5d7aac2897d86316a",
+      "size": 1679826
     },
     {
       "id": "jongno",
@@ -131,9 +137,10 @@
         37.6344,
         127.0254
       ],
-      "ver": 6,
-      "sha256": "b3aac2afa818de8fbf9d27172c5a23772b98425e9a1bd8b111c2cdb81f3df673",
-      "size": 1378879
+      "buffer": 3000,
+      "ver": 7,
+      "sha256": "50a16b1904ea705bd1a2f62c443e97532dac0d0dc44629cddfad9ea22b8031d4",
+      "size": 1979620
     },
     {
       "id": "yangcheon",
@@ -150,9 +157,10 @@
         37.5532,
         126.8927
       ],
-      "ver": 6,
-      "sha256": "71c6f80914ba843af2ab993e17b2d629396dd1d7c170682c48ecae3a285e4aab",
-      "size": 848984
+      "buffer": 3000,
+      "ver": 7,
+      "sha256": "6ff6aab51de2c7249ae5f4a9b56d27c1e4b27edf497ead114767b97c27b1300b",
+      "size": 1165616
     },
     {
       "id": "dongjak",
@@ -169,9 +177,10 @@
         37.5217,
         126.9872
       ],
-      "ver": 6,
-      "sha256": "c48457fb571542c8a5f75a1879b710e65ed1100f65cf3d3ed5c1e43bf91bdc4c",
-      "size": 900663
+      "buffer": 3000,
+      "ver": 7,
+      "sha256": "c2fa458ec432dda1de89f5dc9091805e8811c73d15814431ceece00f17ce0015",
+      "size": 1321171
     },
     {
       "id": "eunpyeong",
@@ -188,9 +197,10 @@
         37.6612,
         126.9654
       ],
-      "ver": 6,
-      "sha256": "7d718ce58ff0fa410ded37763cd6f12cf568211ec5fdf874b936076ffaa0066b",
-      "size": 837187
+      "buffer": 3000,
+      "ver": 7,
+      "sha256": "a6a78f9cdd8abf15dd189d69599becb36d506ca4b9dfc33f5727837670d93f2f",
+      "size": 1047307
     },
     {
       "id": "seodaemun",
@@ -207,9 +217,10 @@
         37.6128,
         126.9715
       ],
-      "ver": 6,
-      "sha256": "51e9113cec150272731967afee8ccadf0e2bc3605b8e074fee9f59a37740b9c2",
-      "size": 1465550
+      "buffer": 3000,
+      "ver": 7,
+      "sha256": "e74cf6df7f95f0948fe160cccb19e674258eadf8fe81592a2f513bac487291f9",
+      "size": 1869989
     },
     {
       "id": "gangdong",
@@ -226,9 +237,10 @@
         37.5832,
         127.1858
       ],
-      "ver": 5,
-      "sha256": "f3fb74248f64f4fe77282a335b92eaf520a0cbde12527663fac80872ba512cfc",
-      "size": 545641
+      "buffer": 3000,
+      "ver": 6,
+      "sha256": "657371df0b0375f77db0e7ab4266b063c54f2a3dc661e4205eb04949135fe500",
+      "size": 719903
     },
     {
       "id": "gangseo",
@@ -245,9 +257,10 @@
         37.607,
         126.8828
       ],
-      "ver": 6,
-      "sha256": "657a676bdd3b35eb4489902555b8a2672f25da4726d4bd01919ffd1f18e37a2c",
-      "size": 756033
+      "buffer": 3000,
+      "ver": 7,
+      "sha256": "d2923b71a0978a80e6418692d4e8edf47d72e8a282d305deb7227828b38fa295",
+      "size": 997618
     },
     {
       "id": "gwanak",
@@ -264,9 +277,10 @@
         37.497,
         126.9905
       ],
-      "ver": 5,
-      "sha256": "0ff0b92fc4431b00586f627d946e3e4ad3e0f7cd495c9c32439050d6d1b44602",
-      "size": 890029
+      "buffer": 3000,
+      "ver": 6,
+      "sha256": "e0ba91dcb88a7d83345e1c8866ac83d05866a40a42e961dc7ef6e2c2d60ec83f",
+      "size": 1110291
     },
     {
       "id": "guro",
@@ -283,9 +297,10 @@
         37.5198,
         126.9051
       ],
-      "ver": 5,
-      "sha256": "d1c327dcbf4423835688485a21b89ecdcac7cdeec95a93ed7752e51e93acce3a",
-      "size": 704061
+      "buffer": 3000,
+      "ver": 6,
+      "sha256": "6db7ac855e374a1c6b9821c525cde9e74712ee10150811e990a48e297035e19b",
+      "size": 1000110
     },
     {
       "id": "dongdaemun",
@@ -302,9 +317,10 @@
         37.6088,
         127.0805
       ],
-      "ver": 5,
-      "sha256": "077bdd5b616385f42edc62dbed821e7a9e295dfaca781e524e2a2418e5e9bc72",
-      "size": 1357596
+      "buffer": 3000,
+      "ver": 6,
+      "sha256": "871be28c0122d9b6a633b3fe9b1a66d25f46ed699df57ba6b9d53569798234f5",
+      "size": 1834871
     },
     {
       "id": "jungnang",
@@ -321,9 +337,10 @@
         37.6231,
         127.1204
       ],
-      "ver": 5,
-      "sha256": "64fae04febfcb7ab6ba1959245d9104e08ed29a1d05227a41e012af05ba56f62",
-      "size": 1103533
+      "buffer": 3000,
+      "ver": 6,
+      "sha256": "f4f92d29d08f2f364ec2824cefc43fb77072e877c711ea5ecde1fafa2c8a404b",
+      "size": 1376794
     },
     {
       "id": "seongbuk",
@@ -340,9 +357,10 @@
         37.6385,
         127.0738
       ],
-      "ver": 5,
-      "sha256": "252675bf73ff6de1ce4debc83db1100e57a326f8d5b0c9ad46a58109a6606398",
-      "size": 1479969
+      "buffer": 3000,
+      "ver": 6,
+      "sha256": "b89e9433a15dc7a4a0a8d11d65bc1ec334210b8b084b8ab16adf9da4009e9b18",
+      "size": 2106527
     },
     {
       "id": "gangbuk",
@@ -359,9 +377,10 @@
         37.6874,
         127.052
       ],
-      "ver": 5,
-      "sha256": "40832e33e804a4b2de8285c7fd094a0ee5e974852674cebd371d7a01d22ba233",
-      "size": 587889
+      "buffer": 3000,
+      "ver": 6,
+      "sha256": "4c4b53104123a2e4f42f196a9345c1fc1210e6d4a538a635365e39f81a46756a",
+      "size": 830607
     },
     {
       "id": "geumcheon",
@@ -378,14 +397,15 @@
         37.4883,
         126.9311
       ],
-      "ver": 5,
-      "sha256": "f77d2b1cc4e698fe5947daedff7cff47efd354342d024aef9e87be0af6b23bc9",
-      "size": 460528
+      "buffer": 3000,
+      "ver": 6,
+      "sha256": "864dfe780a54d0d03a163b37352a2ee8856fb33066bd2134c1e65ca77a6af257",
+      "size": 689714
     },
     {
       "id": "mapo",
       "label": "마포구",
-      "lamps": 11690,
+      "lamps": 8005,
       "home": [
         37.556,
         126.91
@@ -397,14 +417,15 @@
         37.5928,
         126.9659
       ],
-      "ver": 4,
-      "sha256": "bb1679bd1644afe830ed9096f25b80a17ab52a0d08168558e21e1df0ed2e1dfc",
-      "size": 1298231
+      "buffer": 3000,
+      "ver": 5,
+      "sha256": "c710310508c2037e148c143863b834a058a93b31e087945b37338dbc1a84bc4b",
+      "size": 1879887
     },
     {
       "id": "gangnam",
       "label": "강남구",
-      "lamps": 24426,
+      "lamps": 18132,
       "home": [
         37.494,
         127.062
@@ -416,14 +437,15 @@
         37.542,
         127.125
       ],
-      "ver": 4,
-      "sha256": "595807d66f67b165198c4e05e2e10a543556cc8b8962931eef30909b11eda72e",
-      "size": 1142371
+      "buffer": 3000,
+      "ver": 5,
+      "sha256": "3eb1afd8aecd45e921f27bf721cb50d8fd0a3ecf6a8784066b1a2910258a511a",
+      "size": 1571100
     },
     {
       "id": "yongsan",
       "label": "용산구",
-      "lamps": 13054,
+      "lamps": 7370,
       "home": [
         37.522,
         126.974
@@ -435,9 +457,10 @@
         37.5576,
         127.0195
       ],
-      "ver": 4,
-      "sha256": "a12eee603ecdd43bae93e3da7bcfcd6f658d2777f0588a3a502e252a8f14b5ce",
-      "size": 1082688
+      "buffer": 3000,
+      "ver": 5,
+      "sha256": "330b6ed2480e4e945a8144dac8fab713de036f034e0f9fb2c89ba60599bc23b3",
+      "size": 1626421
     },
     {
       "id": "incheon-bupyeong",
