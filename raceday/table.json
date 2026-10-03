@@ -1,0 +1,45 @@
+{
+  "version": 1,
+  "updatedAt": "2026-10-03",
+  "races": [
+    {
+      "name": "하이록스 서울 2026 (킨텍스)",
+      "place": "고양 킨텍스",
+      "start": "2026-11-14",
+      "end": "2026-11-15"
+    }
+  ],
+  "weights": {
+    "SLED_PUSH": {
+      "OPEN_M": "152kg",
+      "OPEN_W": "102kg",
+      "PRO_M": "202kg",
+      "PRO_W": "152kg"
+    },
+    "SLED_PULL": {
+      "OPEN_M": "103kg",
+      "OPEN_W": "78kg",
+      "PRO_M": "153kg",
+      "PRO_W": "103kg"
+    },
+    "FARMERS": {
+      "OPEN_M": "24kg × 2",
+      "OPEN_W": "16kg × 2",
+      "PRO_M": "32kg × 2",
+      "PRO_W": "24kg × 2"
+    },
+    "LUNGES": {
+      "OPEN_M": "20kg",
+      "OPEN_W": "10kg",
+      "PRO_M": "30kg",
+      "PRO_W": "20kg"
+    },
+    "WALL_BALL": {
+      "OPEN_M": "6kg · 3m",
+      "OPEN_W": "4kg · 2.7m",
+      "PRO_M": "9kg · 3m",
+      "PRO_W": "6kg · 2.7m"
+    }
+  },
+  "notice": ""
+}
