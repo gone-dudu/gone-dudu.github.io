@@ -1,0 +1,108 @@
+<!doctype html>
+<html lang="ko">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>비파괴포켓 개인정보처리방침</title>
+<style>
+  :root{
+    --bg:#0f1116; --card:#161a22; --line:#242a35;
+    --ink:#e7eaf0; --dim:#98a2b3; --accent:#7aa2f7;
+  }
+  @media (prefers-color-scheme: light){
+    :root{ --bg:#f7f8fa; --card:#ffffff; --line:#e6e9ef;
+           --ink:#1a1d24; --dim:#5b6472; --accent:#3E5FB5; }
+  }
+  *{box-sizing:border-box}
+  body{
+    margin:0; background:var(--bg); color:var(--ink);
+    font-family:"Noto Sans KR","Pretendard",-apple-system,"Segoe UI",sans-serif;
+    line-height:1.85; word-break:keep-all;
+  }
+  .wrap{max-width:660px;margin:0 auto;padding:56px 20px 96px}
+  .eyebrow{font-size:12px;letter-spacing:.18em;text-transform:uppercase;color:var(--accent);font-weight:700}
+  h1{font-size:30px;line-height:1.3;margin:10px 0 6px;letter-spacing:-.02em}
+  .sub{color:var(--dim);font-size:13px;margin:0 0 40px}
+  section{background:var(--card);border:1px solid var(--line);border-radius:14px;
+          padding:22px 24px;margin:0 0 14px}
+  h2{font-size:16px;margin:0 0 10px;display:flex;align-items:center;gap:9px;letter-spacing:-.01em}
+  h2::before{content:"";width:3px;height:16px;background:var(--accent);border-radius:2px;flex:none}
+  p{margin:0 0 10px;font-size:14.5px}
+  p:last-child{margin-bottom:0}
+  ul{margin:0;padding-left:18px;font-size:14.5px}
+  li{margin:6px 0}
+  blockquote{margin:12px 0 0;padding:12px 14px;border-left:3px solid var(--line);
+             background:rgba(127,127,127,.06);border-radius:0 8px 8px 0;color:var(--dim);font-size:13.5px}
+  blockquote p{font-size:13.5px}
+  code{font-family:ui-monospace,SFMono-Regular,Menlo,monospace;font-size:.92em;
+       background:rgba(127,127,127,.13);padding:1px 5px;border-radius:5px}
+  a{color:var(--accent)}
+  footer{color:var(--dim);font-size:12.5px;margin-top:34px;line-height:1.8}
+
+  .item{border-top:1px dashed var(--line);padding-top:14px;margin-top:14px}
+  .item:first-of-type{border-top:0;padding-top:0;margin-top:0}
+  .label{font-weight:700;font-size:14.5px;margin:0 0 4px}
+  .note{color:var(--dim);font-size:13px}
+</style>
+</head>
+<body>
+<div class="wrap">
+
+  <div class="eyebrow">Privacy</div>
+  <h1>비파괴포켓 개인정보처리방침</h1>
+  <p class="sub">최종 수정일 2026-10-07</p>
+
+  <section>
+    <h2>한 줄 요약</h2>
+    <p>이 앱은 <strong>인터넷 권한(<code>INTERNET</code>)이 없습니다.</strong> 기술적으로 어떤 데이터도 기기 밖으로 보낼 수 없습니다. 개발자를 포함해 누구도 사용자의 기록(현장·촬영 노출 기록·계산 기록·선원·교정 기록·기본값)을 볼 수 없습니다.</p>
+    <p>광고도, 인앱 결제도 없습니다.</p>
+  </section>
+
+  <section>
+    <h2>수집하는 정보</h2>
+    <p><strong>아무것도 수집하지 않습니다.</strong> 계정도, 로그인도, 광고 SDK 도, 분석 도구도 없습니다.</p>
+  </section>
+
+  <section>
+    <h2>권한</h2>
+    <p><strong>런타임 권한을 하나도 요청하지 않습니다.</strong></p>
+    <ul>
+      <li>백업 파일과 내보내는 파일(PDF·CSV)은 <strong>문서 선택기</strong>·공유 창으로 다룹니다 — 사용자가 고른 파일 하나만 읽고 씁니다</li>
+    </ul>
+    <blockquote>안드로이드 기본 라이브러리(androidx.core)가 이 앱 전용 내부 권한 하나 (<code>…DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION</code>)를 자동으로 추가합니다. 앱 내부 신호가 다른 앱으로 새지 않게 막는 장치이며, 사용자에게 묻는 권한이 아닙니다.</blockquote>
+    <p><strong>요청하지 않는 권한</strong> — 인터넷, 카메라, 위치, 연락처, 저장소 전체, 마이크, 알림.</p>
+  </section>
+
+  <section>
+    <h2>제3자 제공·공유</h2>
+    <p><strong>없습니다.</strong></p>
+  </section>
+
+  <section>
+    <h2>기록과 파일</h2>
+    <p>현장·촬영 노출 기록·계산 기록, 선원과 교정 기록, 기본값(감마 상수·반가층·R 인자·음속)은 기기 안에만 저장됩니다. 현장 PDF·CSV 와 감쇠표는 사용자가 「보내기」로 고른 앱으로만 나갑니다. 백업 파일은 사용자가 고른 위치에 저장되며, 어디로도 올라가지 않습니다. 「문의하기」를 누르면 사용자의 메일 앱이 열리고, 보낼지는 사용자가 정합니다(앱 이름·버전·기기 모델이 본문에 미리 적힙니다).</p>
+  </section>
+
+  <section>
+    <h2>아동</h2>
+    <p>이 앱은 만 13세 미만을 대상으로 하지 않습니다.</p>
+  </section>
+
+  <section>
+    <h2>데이터 삭제</h2>
+    <p>앱을 삭제하면 앱 안의 기록(현장·촬영 노출 기록·계산 기록·선원·교정 기록·기본값·설정)이 함께 삭제됩니다. 지우기 전에 남기고 싶으면 앱의 백업으로 파일 한 개로 빼낼 수 있습니다. 개발자는 사용자의 데이터를 갖고 있지 않으므로, 따로 삭제를 요청할 곳이 없습니다.</p>
+  </section>
+
+  <section>
+    <h2>문의</h2>
+    <p>gone1005@gmail.com</p>
+  </section>
+
+  <footer>
+    이 페이지는 안드로이드 앱 「비파괴포켓」의 개인정보처리방침입니다.<br>
+    문의 <a href="mailto:gone1005@gmail.com">gone1005@gmail.com</a>
+  </footer>
+
+</div>
+</body>
+</html>
