@@ -1,0 +1,26 @@
+{
+  "_읽을것": [
+    "스물넷(청년월세) 앱이 하루 한 번 받아 가는 기준표다. 정본은 복지로 「청년월세 지원사업」 서비스 상세(WLF00004661, 국토교통부 청년주거정책과)다. 블로그는 「상시 신청」이라고 틀리게 적은 곳이 많으니 숫자 출처로 쓰지 마라.",
+    "🔴 통째로 받거나 통째로 버린다. 칸 하나라도 빠지거나 범위를 벗어나면(capCount 1~120, monthlyCapWon 1~5,000,000, 소득% 1~300, 공제% 0~100, ageMin ≤ ageMax) 앱이 표 전체를 버리고 내장값을 쓴다.",
+    "capCount(24)=생애 지원 회차 상한, monthlyCapWon(200000)=한 달 상한(원). 둘을 곱한 480만원이 화면의 「다 받으면」 어림값이다.",
+    "🔴 payUntil 은 YYYY-MM 형식(예: 2028-12)이다 — 날짜(일)까지 쓰면 파싱이 실패해 표가 통째로 버려진다. 이 달이 지나면 남은 회차는 정기 신청으로 넘어간다고 안내한다. 새 해 신규 수혜자 공고가 나면 이 값부터 확인해라.",
+    "🔴 이 표는 기준 중위소득 «금액»을 갖지 않는다 — 해마다 바뀌어서다. youthIncomePct(60)·originIncomePct(100)는 퍼센트, youthAssetWon(1.22억)·originAssetWon(4.7억)은 재산 상한(원), earnedDeductPct(30)는 근로·사업소득공제율이다.",
+    "ageMin·ageMax 는 만 나이 요건(19~34)이다.",
+    "제도가 바뀌었는데 앱이 못 따라가면 notice 에 한 줄을 넣는다(빈 문자열이면 아무것도 안 뜬다). 지급기간·회차가 바뀌어 답이 틀리면 judging=false — 소진 판정을 멈춘다.",
+    "updatedAt 은 이 표를 마지막으로 정본과 대조한 날이다. 6개월이 지나면 앱이 「표가 낡았다」고 말한다 — 값이 그대로여도 대조했으면 날짜를 올려라."
+  ],
+  "version": 1,
+  "updatedAt": "2026-09-27",
+  "capCount": 24,
+  "monthlyCapWon": 200000,
+  "payUntil": "2028-12",
+  "youthIncomePct": 60,
+  "originIncomePct": 100,
+  "youthAssetWon": 122000000,
+  "originAssetWon": 470000000,
+  "earnedDeductPct": 30,
+  "ageMin": 19,
+  "ageMax": 34,
+  "notice": "",
+  "judging": true
+}
