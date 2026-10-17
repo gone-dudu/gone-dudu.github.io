@@ -38,6 +38,11 @@
        background:rgba(127,127,127,.13);padding:1px 5px;border-radius:5px}
   a{color:var(--accent)}
   footer{color:var(--dim);font-size:12.5px;margin-top:34px;line-height:1.8}
+
+  .item{border-top:1px dashed var(--line);padding-top:14px;margin-top:14px}
+  .item:first-of-type{border-top:0;padding-top:0;margin-top:0}
+  .label{font-weight:700;font-size:14.5px;margin:0 0 4px}
+  .note{color:var(--dim);font-size:13px}
 </style>
 </head>
 <body>
@@ -45,41 +50,66 @@
 
   <div class="eyebrow">Privacy</div>
   <h1>윤슬 프로 개인정보처리방침</h1>
-  <p class="sub">최종 수정일 2026-09-26</p>
+  <p class="sub">최종 수정일 2026-10-16</p>
 
   <section>
     <h2>한 줄 요약</h2>
     <p>이 앱은 <strong>사진을 어디로도 보내지 않습니다.</strong> 계정도 로그인도 서버도 없고, 촬영·보정·저장이 전부 기기 안에서 끝납니다. 개발자는 사용자의 사진을 볼 수 없습니다.</p>
     <p>광고도 없습니다.</p>
   </section>
+
   <section>
     <h2>수집하는 정보</h2>
     <p><strong>아무것도 수집하지 않습니다.</strong> 계정도, 로그인도, 분석 도구도 없습니다.</p>
   </section>
+
+  <section>
+    <h2>기기 안에만 저장하는 것</h2>
+    <p>아래는 <strong>이 기기 안(앱 전용 저장 공간)</strong> 에만 저장되고, 어디로도 전송되지 않습니다.</p>
+    <ul>
+      <li>촬영 설정 · 촬영 프리셋 · 내 룩(이름과 보정 값)</li>
+      <li>불러온 LUT 파일(.cube) — 사용자가 파일 선택기로 고른 파일을 앱 안에 복사해 둡니다</li>
+      <li>출사 노트 — 사용자가 적은 장소·메모, 찍은 시각, 촬영 값(ISO·셔터·화이트밸런스·룩), 갤러리 사진의 주소. <strong>위치(GPS)는 쓰지 않습니다.</strong> 장소는 사용자가 글로 적은 것뿐입니다</li>
+      <li>글자 크기 설정</li>
+    </ul>
+    <p>찍은 사진(JPEG)과 RAW(DNG) 파일은 기기의 갤러리(사진/윤슬 폴더)에 저장됩니다.</p>
+  </section>
+
+  <section>
+    <h2>백업 파일</h2>
+    <p>「백업 파일 만들기」를 누르면 위의 기기 안 정보(사진 제외)를 zip 파일 하나로 만들어 <strong>사용자가 고른 위치</strong>에 저장합니다. 그 파일을 어디에 두고 누구에게 보낼지는 사용자가 정합니다. 개발자는 그 파일을 받지 않습니다.</p>
+  </section>
+
   <section>
     <h2>권한</h2>
     <ul>
       <li><code>CAMERA</code> — 사진과 영상을 찍기 위해서만 씁니다</li>
+      <li>파일 선택기(LUT 불러오기·백업) — 권한이 아니라 안드로이드 문서 선택 화면을 씁니다. 사용자가 고른 파일 하나만 열립니다</li>
       <li><code>RECORD_AUDIO</code> — <strong>동영상을 녹화할 때만</strong> 씁니다. 녹화 버튼을 누를 때 묻고, 거부해도 소리 없이 녹화됩니다</li>
       <li><code>INTERNET</code> — <strong>개발자가 쓰지 않습니다.</strong> 피사체 분리 기능이 쓰는 Google ML Kit 이 구글 플레이 서비스 구성요소를 통해 이 권한을 선언합니다. 🔴 <strong>사진은 이 경로로 전송되지 않습니다</strong> — 피사체 분리는 기기 안에서 계산되고, 모델 내려받기는 구글 플레이 서비스가(이 앱이 아니라) 수행합니다</li>
     </ul>
   </section>
+
   <section>
     <h2>제3자 제공·공유</h2>
     <p><strong>없습니다.</strong> 광고 SDK 도, 분석 도구도 없습니다.</p>
   </section>
+
   <section>
     <h2>아동</h2>
     <p>이 앱은 만 13세 미만을 대상으로 하지 않습니다.</p>
   </section>
+
   <section>
     <h2>데이터 삭제</h2>
-    <p>찍은 사진은 갤러리에서 지우면 됩니다. 앱 설정은 앱을 삭제하면 함께 삭제됩니다.</p>
+    <p>찍은 사진·RAW 파일은 갤러리에서 지우면 됩니다. 내 룩·LUT·출사 노트·설정은 앱 안에서 하나씩 지우거나, 앱을 삭제하면 함께 삭제됩니다. 백업 파일은 사용자가 저장한 곳에서 직접 지우면 됩니다.</p>
   </section>
+
   <section>
     <h2>문의</h2>
     <p>gone1005@gmail.com</p>
   </section>
+
   <footer>
     이 페이지는 안드로이드 앱 「윤슬 프로」의 개인정보처리방침입니다.<br>
     문의 <a href="mailto:gone1005@gmail.com">gone1005@gmail.com</a>
