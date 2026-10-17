@@ -38,6 +38,11 @@
        background:rgba(127,127,127,.13);padding:1px 5px;border-radius:5px}
   a{color:var(--accent)}
   footer{color:var(--dim);font-size:12.5px;margin-top:34px;line-height:1.8}
+
+  .item{border-top:1px dashed var(--line);padding-top:14px;margin-top:14px}
+  .item:first-of-type{border-top:0;padding-top:0;margin-top:0}
+  .label{font-weight:700;font-size:14.5px;margin:0 0 4px}
+  .note{color:var(--dim);font-size:13px}
 </style>
 </head>
 <body>
@@ -45,49 +50,59 @@
 
   <div class="eyebrow">Privacy</div>
   <h1>하자콕 개인정보처리방침</h1>
-  <p class="sub">최종 수정일 2026-09-30</p>
+  <p class="sub">최종 수정일 2026-10-17</p>
 
   <section>
     <h2>한 줄 요약</h2>
-    <p>이 앱은 <strong>인터넷 권한(<code>INTERNET</code>)이 없습니다.</strong> 기술적으로 어떤 데이터도 기기 밖으로 보낼 수 없습니다. 개발자를 포함해 누구도 사용자의 기록(현장·점검 항목·하자 사진·메모)을 볼 수 없습니다.</p>
+    <p>이 앱은 <strong>인터넷 권한(<code>INTERNET</code>)이 없습니다.</strong> 기술적으로 어떤 데이터도 기기 밖으로 보낼 수 없습니다. 개발자를 포함해 누구도 사용자의 기록(현장·점검 항목·하자 사진·메모·보수 요청 기록)을 볼 수 없습니다.</p>
     <p>광고도, 인앱 결제도 없습니다.</p>
   </section>
+
   <section>
     <h2>수집하는 정보</h2>
     <p><strong>아무것도 수집하지 않습니다.</strong> 계정도, 로그인도, 광고 SDK 도, 분석 도구도 없습니다.</p>
   </section>
+
   <section>
     <h2>권한</h2>
     <ul>
       <li><code>CAMERA</code> — 앱 안 카메라로 하자·조치 사진을 찍을 때만 씁니다. 사진은 이 앱 안에만 저장되고 갤러리에 섞이지 않습니다</li>
+      <li><code>POST_NOTIFICATIONS</code> — 보수 기한이 지났거나 다가온 하자가 있을 때 아침 알림을 보내기 위해서만 씁니다. 설정에서 알림을 켤 때만 묻고, 거부해도 앱의 다른 기능은 그대로 쓸 수 있습니다. 알림은 기기 안에서 만들어지며 어디로도 전송되지 않습니다</li>
       <li>앨범 사진은 <strong>사진 선택기</strong>로 고릅니다 — 갤러리 전체에 접근하지 않습니다</li>
       <li>백업 파일은 <strong>문서 선택기</strong>로 저장하고 엽니다 — 사용자가 고른 파일 하나만 다룹니다</li>
     </ul>
     <p><strong>「말로 적기」</strong> 는 폰에 설치된 <strong>음성 입력 앱</strong>(예: Google 음성 인식)을 불러 씁니다. 이 앱은 마이크 권한이 없고, 음성 입력 앱이 돌려준 <strong>글자만</strong> 받습니다. 음성 처리 방식은 그 음성 입력 앱의 방침을 따릅니다.</p>
     <blockquote>카메라 라이브러리(CameraX)가 <code>ACCESS_NETWORK_STATE</code> 권한을 자동으로 추가합니다. 인터넷 권한이 없으므로 이 권한으로 접속할 수는 없습니다.</blockquote>
+    <blockquote>알림 예약 라이브러리(WorkManager)가 <code>WAKE_LOCK</code>·<code>RECEIVE_BOOT_COMPLETED</code>·<code>FOREGROUND_SERVICE</code>·<code>ACCESS_NETWORK_STATE</code> 권한을 자동으로 추가합니다. 폰을 다시 켜도 알림 예약이 이어지게 하는 장치이며, 네트워크 상태 권한으로 인터넷에 접속할 수는 없습니다.</blockquote>
     <blockquote>안드로이드 기본 라이브러리(androidx.core)가 이 앱 전용 내부 권한 하나 (<code>…DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION</code>)를 자동으로 추가합니다. 앱 내부 신호가 다른 앱으로 새지 않게 막는 장치이며, 사용자에게 묻는 권한이 아닙니다.</blockquote>
-    <p><strong>요청하지 않는 권한</strong> — 인터넷, 위치, 연락처, 저장소 전체, 마이크, 알림.</p>
+    <p><strong>요청하지 않는 권한</strong> — 인터넷, 위치, 연락처, 저장소 전체, 마이크, 정확한 알람.</p>
   </section>
+
   <section>
     <h2>제3자 제공·공유</h2>
     <p><strong>없습니다.</strong></p>
   </section>
+
   <section>
     <h2>기록과 파일</h2>
-    <p>현장·항목·사진은 기기 안에만 저장됩니다. 보고서 PDF·사진은 사용자가 「보내기」 로 고른 앱으로만 나갑니다. 백업(zip)은 사용자가 고른 위치에 파일로 저장되며, 어디로도 올라가지 않습니다.</p>
+    <p>현장·항목·사진·보수 요청 기록은 기기 안에만 저장됩니다. 보고서·보수 요청서·확인서 PDF와 사진은 사용자가 「보내기」 로 고른 앱으로만 나갑니다. 백업(zip)은 사용자가 고른 위치에 파일로 저장되며, 어디로도 올라가지 않습니다.</p>
   </section>
+
   <section>
     <h2>아동</h2>
     <p>이 앱은 만 13세 미만을 대상으로 하지 않습니다.</p>
   </section>
+
   <section>
     <h2>데이터 삭제</h2>
     <p>앱을 삭제하면 앱 안의 기록(현장·항목·사진·설정)이 함께 삭제됩니다. 지우기 전에 남기고 싶으면 앱의 백업으로 파일 한 개로 빼낼 수 있습니다. 개발자는 사용자의 데이터를 갖고 있지 않으므로, 따로 삭제를 요청할 곳이 없습니다.</p>
   </section>
+
   <section>
     <h2>문의</h2>
     <p>gone1005@gmail.com</p>
   </section>
+
   <footer>
     이 페이지는 안드로이드 앱 「하자콕」의 개인정보처리방침입니다.<br>
     문의 <a href="mailto:gone1005@gmail.com">gone1005@gmail.com</a>
