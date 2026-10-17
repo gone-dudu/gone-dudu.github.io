@@ -38,6 +38,11 @@
        background:rgba(127,127,127,.13);padding:1px 5px;border-radius:5px}
   a{color:var(--accent)}
   footer{color:var(--dim);font-size:12.5px;margin-top:34px;line-height:1.8}
+
+  .item{border-top:1px dashed var(--line);padding-top:14px;margin-top:14px}
+  .item:first-of-type{border-top:0;padding-top:0;margin-top:0}
+  .label{font-weight:700;font-size:14.5px;margin:0 0 4px}
+  .note{color:var(--dim);font-size:13px}
 </style>
 </head>
 <body>
@@ -45,46 +50,59 @@
 
   <div class="eyebrow">Privacy</div>
   <h1>일삯 프로 개인정보처리방침</h1>
-  <p class="sub">최종 수정일 2026-09-26</p>
+  <p class="sub">최종 수정일 2026-10-17</p>
 
   <section>
     <h2>한 줄 요약</h2>
     <p>이 앱은 <strong>인터넷 권한(<code>INTERNET</code>)이 없습니다.</strong> 기술적으로 어떤 데이터도 기기 밖으로 보낼 수 없습니다. 개발자를 포함해 누구도 사용자의 근무 기록이나 급여를 볼 수 없습니다.</p>
     <p>광고도 없습니다.</p>
   </section>
+
   <section>
     <h2>수집하는 정보</h2>
     <p><strong>아무것도 수집하지 않습니다.</strong> 계정도, 로그인도, 광고 SDK 도, 분석 도구도 없습니다.</p>
   </section>
+
   <section>
     <h2>권한</h2>
     <ul>
-      <li><code>POST_NOTIFICATIONS</code> — 출근 알림용입니다. 거부해도 앱의 나머지 기능은 그대로 씁니다</li>
+      <li><code>POST_NOTIFICATIONS</code> — 출근 알림·급여일 알림용입니다. 거부해도 앱의 나머지 기능은 그대로 씁니다</li>
       <li><strong><code>INTERNET</code> 권한이 없습니다</strong> — 근무 기록·급여·명세서가 기기 밖으로 나갈 길이 없습니다</li>
     </ul>
     <blockquote>알림 예약 라이브러리(WorkManager)가 <code>ACCESS_NETWORK_STATE</code>·<code>WAKE_LOCK</code>· <code>FOREGROUND_SERVICE</code>·<code>RECEIVE_BOOT_COMPLETED</code> 권한을 자동으로 추가합니다. 기기를 다시 켠 뒤에도 알림 예약을 되살리기 위한 것이며, 개발자가 그 권한으로 따로 하는 일은 없습니다. 네트워크 권한이 없으므로 <code>ACCESS_NETWORK_STATE</code> 로 할 수 있는 일도 없습니다.</blockquote>
     <p><strong>요청하지 않는 권한</strong> — 인터넷, 위치, 연락처, 통화기록, 캘린더, 저장소, 정확한 알람. 출근 알림은 정확한 알람 권한 없이 예약하므로 시각이 수 분 흔들릴 수 있습니다.</p>
   </section>
+
   <section>
     <h2>제3자 제공·공유</h2>
     <p><strong>없습니다.</strong></p>
   </section>
+
   <section>
-    <h2>급여명세서 PDF</h2>
-    <p>명세서는 <strong>기기 안에서 만들어 기기에 저장</strong>됩니다. 어디로도 올라가지 않습니다. 사용자가 직접 공유(카카오톡·메일 등)할 때만 그 앱으로 넘어갑니다.</p>
+    <h2>기기 안에 저장하는 것</h2>
+    <p>근무지(이름·시급·공제 방법)·근무 기록·지급 확인 표시·통장에 들어왔다고 직접 적은 금액과 날짜·세금/보험 요율 설정. 모두 이 기기 안에만 저장되며 개발자에게 전송되지 않습니다.</p>
   </section>
+
+  <section>
+    <h2>PDF(급여명세서 · 연간 지급 정리 · 못 받은 임금 정리표)</h2>
+    <p>명세서·정리표는 <strong>기기 안에서 만들어 기기에 저장</strong>됩니다. 어디로도 올라가지 않습니다. 사용자가 직접 공유(카카오톡·메일 등)할 때만 그 앱으로 넘어갑니다.</p>
+  </section>
+
   <section>
     <h2>아동</h2>
     <p>이 앱은 만 13세 미만을 대상으로 하지 않습니다.</p>
   </section>
+
   <section>
     <h2>데이터 삭제</h2>
     <p>앱을 삭제하면 근무 기록과 설정이 함께 삭제됩니다. 지우기 전에 남기고 싶으면 앱의 [더보기 › 내보내기]로 JSON 파일 한 개로 빼낼 수 있습니다.</p>
   </section>
+
   <section>
     <h2>문의</h2>
     <p>gone1005@gmail.com</p>
   </section>
+
   <footer>
     이 페이지는 안드로이드 앱 「일삯 프로」의 개인정보처리방침입니다.<br>
     문의 <a href="mailto:gone1005@gmail.com">gone1005@gmail.com</a>
