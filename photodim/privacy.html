@@ -38,6 +38,11 @@
        background:rgba(127,127,127,.13);padding:1px 5px;border-radius:5px}
   a{color:var(--accent)}
   footer{color:var(--dim);font-size:12.5px;margin-top:34px;line-height:1.8}
+
+  .item{border-top:1px dashed var(--line);padding-top:14px;margin-top:14px}
+  .item:first-of-type{border-top:0;padding-top:0;margin-top:0}
+  .label{font-weight:700;font-size:14.5px;margin:0 0 4px}
+  .note{color:var(--dim);font-size:13px}
 </style>
 </head>
 <body>
@@ -45,17 +50,19 @@
 
   <div class="eyebrow">Privacy</div>
   <h1>치수메모 개인정보처리방침</h1>
-  <p class="sub">최종 수정일 2026-09-30</p>
+  <p class="sub">최종 수정일 2026-10-17</p>
 
   <section>
     <h2>한 줄 요약</h2>
-    <p>이 앱은 <strong>인터넷 권한(<code>INTERNET</code>)이 없습니다.</strong> 기술적으로 어떤 데이터도 기기 밖으로 보낼 수 없습니다. 개발자를 포함해 누구도 사용자의 기록(사진·치수선·메모)을 볼 수 없습니다.</p>
+    <p>이 앱은 <strong>인터넷 권한(<code>INTERNET</code>)이 없습니다.</strong> 기술적으로 어떤 데이터도 기기 밖으로 보낼 수 없습니다. 개발자를 포함해 누구도 사용자의 기록(사진·치수선·메모·현장 정보·서명)을 볼 수 없습니다.</p>
     <p>광고도, 인앱 결제도 없습니다.</p>
   </section>
+
   <section>
     <h2>수집하는 정보</h2>
     <p><strong>아무것도 수집하지 않습니다.</strong> 계정도, 로그인도, 광고 SDK 도, 분석 도구도 없습니다.</p>
   </section>
+
   <section>
     <h2>권한</h2>
     <p><strong>런타임 권한을 하나도 요청하지 않습니다.</strong></p>
@@ -67,26 +74,32 @@
     <blockquote>안드로이드 기본 라이브러리(androidx.core)가 이 앱 전용 내부 권한 하나 (<code>…DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION</code>)를 자동으로 추가합니다. 앱 내부 신호가 다른 앱으로 새지 않게 막는 장치이며, 사용자에게 묻는 권한이 아닙니다.</blockquote>
     <p><strong>요청하지 않는 권한</strong> — 인터넷, 카메라, 위치, 연락처, 저장소 전체, 마이크, 알림.</p>
   </section>
+
   <section>
     <h2>제3자 제공·공유</h2>
     <p><strong>없습니다.</strong></p>
   </section>
+
   <section>
     <h2>기록과 파일</h2>
-    <p>가져온 사진과 치수는 이 앱 안에만 저장됩니다. 보고서 PDF·이미지는 사용자가 「보내기」 로 고른 앱으로만 나갑니다. 백업(zip)은 사용자가 고른 위치에 저장되며, 어디로도 올라가지 않습니다.</p>
+    <p>가져온 사진과 치수는 이 앱 안에만 저장됩니다. 사용자가 직접 적는 현장 정보(주소·고객 이름·연락처)와 내 정보(상호·이름·연락처), 화면에 손가락으로 받은 <strong>확인 서명 그림</strong>도 이 앱 안에만 저장되며, 사용자가 만드는 서류(실측 보고서·치수표·자재 산출서 PDF)의 머리와 확인 칸에만 쓰입니다. 서류 PDF·치수 그림은 사용자가 「보내기」 로 고른 앱으로만 나갑니다. 백업(zip — 사진·서명 그림 포함)은 사용자가 고른 위치에 저장되며, 어디로도 올라가지 않습니다.</p>
   </section>
+
   <section>
     <h2>아동</h2>
     <p>이 앱은 만 13세 미만을 대상으로 하지 않습니다.</p>
   </section>
+
   <section>
     <h2>데이터 삭제</h2>
-    <p>앱을 삭제하면 앱 안의 기록(사진·치수·메모·설정)이 함께 삭제됩니다. 지우기 전에 남기고 싶으면 앱의 백업으로 파일 한 개로 빼낼 수 있습니다. 개발자는 사용자의 데이터를 갖고 있지 않으므로, 따로 삭제를 요청할 곳이 없습니다.</p>
+    <p>앱을 삭제하면 앱 안의 기록(사진·치수·메모·현장 정보·서명·설정)이 함께 삭제됩니다. 서명은 현장 카드에서 다시 받으면 앞의 것이 지워집니다. 지우기 전에 남기고 싶으면 앱의 백업으로 파일 한 개로 빼낼 수 있습니다. 개발자는 사용자의 데이터를 갖고 있지 않으므로, 따로 삭제를 요청할 곳이 없습니다.</p>
   </section>
+
   <section>
     <h2>문의</h2>
     <p>gone1005@gmail.com</p>
   </section>
+
   <footer>
     이 페이지는 안드로이드 앱 「치수메모」의 개인정보처리방침입니다.<br>
     문의 <a href="mailto:gone1005@gmail.com">gone1005@gmail.com</a>
