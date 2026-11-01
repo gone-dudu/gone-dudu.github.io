@@ -1,0 +1,112 @@
+<!doctype html>
+<html lang="ko">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>학원차량운행일지 개인정보처리방침</title>
+<style>
+  :root{
+    --bg:#0f1116; --card:#161a22; --line:#242a35;
+    --ink:#e7eaf0; --dim:#98a2b3; --accent:#7aa2f7;
+  }
+  @media (prefers-color-scheme: light){
+    :root{ --bg:#f7f8fa; --card:#ffffff; --line:#e6e9ef;
+           --ink:#1a1d24; --dim:#5b6472; --accent:#3E5FB5; }
+  }
+  *{box-sizing:border-box}
+  body{
+    margin:0; background:var(--bg); color:var(--ink);
+    font-family:"Noto Sans KR","Pretendard",-apple-system,"Segoe UI",sans-serif;
+    line-height:1.85; word-break:keep-all;
+  }
+  .wrap{max-width:660px;margin:0 auto;padding:56px 20px 96px}
+  .eyebrow{font-size:12px;letter-spacing:.18em;text-transform:uppercase;color:var(--accent);font-weight:700}
+  h1{font-size:30px;line-height:1.3;margin:10px 0 6px;letter-spacing:-.02em}
+  .sub{color:var(--dim);font-size:13px;margin:0 0 40px}
+  section{background:var(--card);border:1px solid var(--line);border-radius:14px;
+          padding:22px 24px;margin:0 0 14px}
+  h2{font-size:16px;margin:0 0 10px;display:flex;align-items:center;gap:9px;letter-spacing:-.01em}
+  h2::before{content:"";width:3px;height:16px;background:var(--accent);border-radius:2px;flex:none}
+  p{margin:0 0 10px;font-size:14.5px}
+  p:last-child{margin-bottom:0}
+  ul{margin:0;padding-left:18px;font-size:14.5px}
+  li{margin:6px 0}
+  blockquote{margin:12px 0 0;padding:12px 14px;border-left:3px solid var(--line);
+             background:rgba(127,127,127,.06);border-radius:0 8px 8px 0;color:var(--dim);font-size:13.5px}
+  blockquote p{font-size:13.5px}
+  code{font-family:ui-monospace,SFMono-Regular,Menlo,monospace;font-size:.92em;
+       background:rgba(127,127,127,.13);padding:1px 5px;border-radius:5px}
+  a{color:var(--accent)}
+  footer{color:var(--dim);font-size:12.5px;margin-top:34px;line-height:1.8}
+
+  .item{border-top:1px dashed var(--line);padding-top:14px;margin-top:14px}
+  .item:first-of-type{border-top:0;padding-top:0;margin-top:0}
+  .label{font-weight:700;font-size:14.5px;margin:0 0 4px}
+  .note{color:var(--dim);font-size:13px}
+</style>
+</head>
+<body>
+<div class="wrap">
+
+  <div class="eyebrow">Privacy</div>
+  <h1>학원차량운행일지 개인정보처리방침</h1>
+  <p class="sub">최종 수정일 2026-11-01</p>
+
+  <section>
+    <h2>한 줄 요약</h2>
+    <p>이 앱은 <strong>인터넷 권한(<code>INTERNET</code>)이 없습니다.</strong> 기술적으로 어떤 데이터도 기기 밖으로 보낼 수 없습니다. 개발자를 포함해 누구도 사용자의 기록(아이 이름·보호자 전화·탑승 기록·손가락 서명·사진·도장)을 볼 수 없습니다.</p>
+    <p>광고도, 인앱 결제도 없습니다.</p>
+  </section>
+
+  <section>
+    <h2>수집하는 정보</h2>
+    <p><strong>아무것도 수집하지 않습니다.</strong> 계정도, 로그인도, 광고 SDK 도, 분석 도구도 없습니다.</p>
+    <p>사용자가 적는 아이 이름·학년·보호자·보호자 전화·메모, 노선·타는 곳, 탑승·하차 시각과 결석 사유, 운전자·동승자 이름·전화·안전교육 받은 날, 차량 번호·신고 번호·검사일·보험 만기일, 점검 표시·메모·사진, 동승자와 운전자의 손가락 서명, 내 양식(학원 이름·대표·연락처·주소·사업자등록번호·도장 그림·서류 아래 문구)은 <strong>이 기기 안에만</strong> 저장됩니다. 아이의 이름과 보호자 전화번호는 민감하게 다뤄야 할 정보입니다. 이 정보는 개발자에게도, 어떤 서버에도 전달되지 않습니다. 주민등록번호 칸이 없습니다. 보호자 전화는 폰의 연락처를 읽지 않고 사용자가 글로 적은 것만 남습니다. 위치(GPS)를 쓰지 않습니다. 저녁 알림에는 아이 이름을 넣지 않습니다.</p>
+  </section>
+
+  <section>
+    <h2>권한</h2>
+    <ul>
+      <li><code>POST_NOTIFICATIONS</code> — 저녁 「안 끝낸 일지」 「안전교육·검사·보험 만기」 알림을 보내기 위해서만 씁니다. 켤 때만 요청하고, 거부해도 앱은 그대로 씁니다</li>
+      <li>사진·도장은 안드로이드 <strong>사진 선택기</strong>로 고른 장만, 또는 폰의 <strong>카메라 앱을 불러</strong> 찍은 장만 받아 앱 안에 줄여 담습니다. 사진첩 전체를 읽지 않으며 카메라·사진·저장소 권한이 없습니다</li>
+      <li>「전화」 는 폰의 전화 앱을 <strong>열기만</strong> 합니다(번호가 채워진 채로). 전화를 거는 것은 사용자가 그 앱에서 직접 합니다(전화 권한 없음)</li>
+      <li>서류 PDF·엑셀 파일·백업은 <strong>공유 창</strong>·<strong>문서 선택기</strong>로 다룹니다. 어디로 보낼지는 사용자가 고릅니다</li>
+    </ul>
+    <blockquote>알림 예약 라이브러리(WorkManager)가 <code>WAKE_LOCK</code>·<code>RECEIVE_BOOT_COMPLETED</code>·<code>FOREGROUND_SERVICE</code>·<code>ACCESS_NETWORK_STATE</code> 권한을 자동으로 추가합니다. 폰을 다시 켜도 알림 예약이 이어지게 하는 장치이며, 네트워크 상태 권한으로 인터넷에 접속할 수는 없습니다.</blockquote>
+    <blockquote>안드로이드 기본 라이브러리(androidx.core)가 이 앱 전용 내부 권한 하나 (<code>…DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION</code>)를 자동으로 추가합니다. 앱 내부 신호가 다른 앱으로 새지 않게 막는 장치이며, 사용자에게 묻는 권한이 아닙니다.</blockquote>
+    <p><strong>요청하지 않는 권한</strong> — 인터넷, 연락처, SMS, 전화·통화 기록, 위치, 카메라, 사진, 저장소 전체, 마이크, 정확한 알람.</p>
+  </section>
+
+  <section>
+    <h2>제3자 제공·공유</h2>
+    <p><strong>없습니다.</strong> 운행 일지·월 운행 일지·아이별 탑승표·분기 안전운행 기록 PDF, 엑셀 파일과 백업 파일은 사용자가 「보내기」·「파일로 저장」 으로 고른 곳으로만 나갑니다.</p>
+  </section>
+
+  <section>
+    <h2>기록과 파일</h2>
+    <p>아이·노선·차·사람·운행 일지·서명·사진·내 양식·기준값·알림 설정은 기기 안에만 저장됩니다. 백업 파일(zip — 기록·사진·도장)은 사용자가 고른 위치에 저장되며, 어디로도 올라가지 않습니다. 아이 이름·보호자 전화·서명이 담겨 있으니 백업 파일과 PDF·엑셀은 필요한 곳에만 보내고, 학원의 개인정보 관리 기준에 맞게 보관해 주세요.</p>
+  </section>
+
+  <section>
+    <h2>아동</h2>
+    <p>이 앱은 학원 운영자·기사·동승자가 쓰는 도구입니다. 아동이 직접 쓰는 앱이 아니며 만 13세 미만을 대상으로 하지 않습니다. 아동의 정보는 어른 사용자가 자기 기기에 적는 것이고, 개발자는 이를 받지도 보지도 않습니다.</p>
+  </section>
+
+  <section>
+    <h2>데이터 삭제</h2>
+    <p>앱 안에서 아이·노선·차·사람·일지·사진 한 장을 지울 수 있습니다. 일지를 지우면 그 일지의 서명·사진이 함께 지워집니다. 아이를 지우면 명단과 전화번호에서 지워지고, 이미 쓴 일지의 이름은 그 일지를 지울 때까지 기록으로 남습니다. 앱을 삭제하면 앱 안의 모든 기록과 사진이 함께 삭제됩니다. 지우기 전에 남기고 싶으면 앱의 백업으로 파일 한 개로 빼낼 수 있습니다. 개발자는 사용자의 데이터를 갖고 있지 않으므로, 따로 삭제를 요청할 곳이 없습니다.</p>
+  </section>
+
+  <section>
+    <h2>문의</h2>
+    <p>gone1005@gmail.com</p>
+  </section>
+
+  <footer>
+    이 페이지는 안드로이드 앱 「학원차량운행일지」의 개인정보처리방침입니다.<br>
+    문의 <a href="mailto:gone1005@gmail.com">gone1005@gmail.com</a>
+  </footer>
+
+</div>
+</body>
+</html>
